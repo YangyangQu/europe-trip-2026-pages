@@ -1,0 +1,18 @@
+{
+  "name": "2026 欧洲旅行手册 · GitHub Pages",
+  "short_name": "欧洲旅行",
+  "start_url": "./#/",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#efe6da",
+  "theme_color": "#2f654e",
+  "description": "瑞士、意大利、法国旅行行程手册（GitHub Pages 只读镜像）",
+  "icons": [
+    {
+      "src": "./trip-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

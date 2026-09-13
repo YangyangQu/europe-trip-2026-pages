@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#efe6da">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="欧洲旅行">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./trip-icon.svg" type="image/svg+xml">
+  <title>2026 欧洲旅行手册</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="shell">
+  <nav class="navchips">
+    <a id="nav-overview" class="chip" href="#/">🗺️ 总览</a>
+    <a id="nav-info" class="chip" href="#/info">ℹ️ 信息</a>
+    <a id="nav-days" class="chip" href="#/day/1">📅 每日行程</a>
+    <a id="nav-todo" class="chip" href="#/todo">✅ 待办</a>
+    <select id="daySelect" class="day-selector"></select>
+    <span id="offline" class="offline">离线</span>
+  </nav>
+
+  <main id="app"><div class="card empty">正在读取行程…</div></main>
+
+  <footer>GitHub Pages 中国备用镜像 · 只读 · 真实票据 PDF / 二维码未公开。</footer>
+</div>
+
+<nav class="mobile-nav" aria-label="移动端导航">
+  <a id="m-overview" href="#/"><span class="ico">⌂</span>今日</a>
+  <a id="m-days" href="#/day/1"><span class="ico">▣</span>行程</a>
+  <a id="m-food" class="food-link-mobile" href="#/food"><span class="ico">♨</span>美食</a>
+  <a id="m-info" href="#/info"><span class="ico">ℹ</span>信息</a>
+  <a id="m-todo" href="#/todo"><span class="ico">✓</span>待办</a>
+</nav>
+
+<script src="./app.js" defer></script>
+</body>
+</html>
