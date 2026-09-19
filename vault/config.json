@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "algorithm": "PBKDF2-SHA256 + AES-256-GCM",
+  "salt": "nS+uVzCSiSL5RKSIsNhbuQ==",
+  "iterations": 310000,
+  "manifest": "./vault/manifest.enc",
+  "files": [
+    "./vault/t001.enc",
+    "./vault/t002.enc",
+    "./vault/t003.enc",
+    "./vault/t004.enc",
+    "./vault/t005.enc",
+    "./vault/t006.enc",
+    "./vault/t007.enc",
+    "./vault/t008.enc",
+    "./vault/t009.enc",
+    "./vault/t010.enc",
+    "./vault/t011.enc",
+    "./vault/t012.enc",
+    "./vault/t013.enc",
+    "./vault/t014.enc",
+    "./vault/t015.enc"
+  ]
+}

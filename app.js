@@ -47,6 +47,7 @@ function renderRoute(){
   }
   daySelect.value="";
   if(path==="/info"||path==="/flights")return renderInfo();
+  if(path==="/tickets")return renderTickets();
   if(path==="/todo")return renderTodos();
   if(path==="/food")return renderFood(params);
   return renderHome();
@@ -60,7 +61,7 @@ function selector(){
 }
 
 function setActive(path){
-  const key=(path.startsWith("/info")||path.startsWith("/flights"))?"info":
+  const key=path.startsWith("/tickets")?"tickets":(path.startsWith("/info")||path.startsWith("/flights"))?"info":
     path.startsWith("/day/")?"days":
     path.startsWith("/food")?"food":
     path.startsWith("/todo")?"todo":"overview";
@@ -93,7 +94,7 @@ function renderHome(){
   <section class="card mirror-note">
     <div class="kicker">GITHUB PAGES MIRROR</div>
     <strong>中国备用只读镜像</strong>
-    <p>这里不依赖 Cloudflare Worker / D1。真实票据 PDF、二维码、后台编辑功能没有公开到 GitHub。</p>
+    <p>这里不依赖 Cloudflare Worker / D1。行程公开只读；真实票据以 AES-GCM 加密文件存放，只有输入票夹密码后才在浏览器本地解密。</p>
   </section>
 
   <div class="section-title"><h2>行程</h2><small>按天查看</small></div>
@@ -136,13 +137,277 @@ function renderInfo(){
     <section class="card mirror-note">
       <div class="kicker">PUBLIC GITHUB MIRROR</div>
       <strong>公开只读备用站</strong>
-      <p>这里保留完整公开行程、交通、住宿、美食和待办；不包含真实票据 PDF、二维码、订单号、付款信息和管理后台。</p>
+      <p>这里保留完整公开行程、交通、住宿、美食和待办。真实票据请进入“🎟️ 票夹”，输入独立密码后在本机解密查看；管理后台和 Secret 仍不公开。</p>
     </section>
     <div class="section-title"><h2>航班</h2><small>${flights.length} 段</small></div>
     <section class="card list-card">${flights.map(card).join("")||`<div class="empty">暂无航班。</div>`}</section>
     ${ground.length?`<div class="section-title"><h2>火车 / 公交</h2><small>${ground.length} 项</small></div><section class="card list-card">${ground.map(card).join("")}</section>`:""}
     ${hotels.length?`<div class="section-title"><h2>住宿</h2><small>${hotels.length} 项</small></div><section class="card list-card">${hotels.map(card).join("")}</section>`:""}
   `;
+}
+
+
+let VAULT={
+  key:null,
+  password:null,
+  config:null,
+  manifest:null
+};
+
+function vaultBaseUrl(path){
+  return new URL(path, location.href.split("#")[0]).href;
+}
+
+function b64ToBytes(s){
+  const bin=atob(s);
+  const a=new Uint8Array(bin.length);
+  for(let i=0;i<bin.length;i++)a[i]=bin.charCodeAt(i);
+  return a;
+}
+
+async function vaultFetch(path){
+  const url=vaultBaseUrl(path);
+  const cached=await caches.match(url);
+  if(cached)return cached;
+  const r=await fetch(url,{cache:"no-store"});
+  if(!r.ok)throw new Error(`${r.status} ${r.statusText}`);
+  return r;
+}
+
+async function deriveVaultKey(password,config){
+  const material=await crypto.subtle.importKey(
+    "raw",
+    new TextEncoder().encode(password),
+    {name:"PBKDF2"},
+    false,
+    ["deriveKey"]
+  );
+  return crypto.subtle.deriveKey(
+    {
+      name:"PBKDF2",
+      salt:b64ToBytes(config.salt),
+      iterations:Number(config.iterations||310000),
+      hash:"SHA-256"
+    },
+    material,
+    {name:"AES-GCM",length:256},
+    false,
+    ["decrypt"]
+  );
+}
+
+async function decryptVaultPayload(buffer,key){
+  const all=new Uint8Array(buffer);
+  if(all.length<29)throw new Error("加密文件格式错误");
+  const iv=all.slice(0,12);
+  const cipher=all.slice(12); // includes 16-byte GCM tag at the end
+  return crypto.subtle.decrypt(
+    {name:"AES-GCM",iv,tagLength:128},
+    key,
+    cipher
+  );
+}
+
+async function loadVaultConfig(){
+  if(VAULT.config)return VAULT.config;
+  const r=await fetch(vaultBaseUrl("./vault/config.json"),{cache:"no-store"});
+  if(r.status===404)throw new Error("票夹尚未生成，请先在电脑运行 build_ticket_vault.mjs");
+  if(!r.ok)throw new Error(`票夹配置读取失败：${r.status}`);
+  VAULT.config=await r.json();
+  return VAULT.config;
+}
+
+async function unlockVault(password,{remember=true}={}){
+  const config=await loadVaultConfig();
+  const key=await deriveVaultKey(password,config);
+  const r=await vaultFetch(config.manifest);
+  let plain;
+  try{
+    plain=await decryptVaultPayload(await r.arrayBuffer(),key);
+  }catch{
+    throw new Error("密码不正确，或票夹文件已损坏");
+  }
+  const manifest=JSON.parse(new TextDecoder().decode(plain));
+  VAULT.key=key;
+  VAULT.password=password;
+  VAULT.manifest=manifest;
+  if(remember)sessionStorage.setItem("tripVaultPasswordV32",password);
+  return manifest;
+}
+
+function lockVault(){
+  VAULT.key=null;
+  VAULT.password=null;
+  VAULT.manifest=null;
+  sessionStorage.removeItem("tripVaultPasswordV32");
+  renderTickets();
+}
+
+function ticketGroupLabel(date){
+  if(!date)return"其他票据 / 凭证";
+  const d=new Date(`${date}T12:00:00`);
+  return `${d.getMonth()+1}月${d.getDate()}日`;
+}
+
+function ticketCard(t){
+  return `<article class="vault-ticket-card">
+    <div class="vault-ticket-icon">${t.mime==="application/pdf"?"PDF":"IMG"}</div>
+    <div class="vault-ticket-copy">
+      <div class="vault-ticket-category">${esc(t.category||"票据")}</div>
+      <strong>${esc(t.title)}</strong>
+      ${t.note?`<p>${esc(t.note)}</p>`:""}
+    </div>
+    <button class="action primary vault-open-btn" data-ticket-id="${attr(t.id)}">打开票据</button>
+  </article>`;
+}
+
+function renderUnlockedVault(){
+  const tickets=(VAULT.manifest?.tickets||[]).slice().sort((a,b)=>
+    String(a.date||"9999").localeCompare(String(b.date||"9999")) ||
+    String(a.title||"").localeCompare(String(b.title||""))
+  );
+  const groups={};
+  for(const t of tickets)(groups[t.date||""] ||= []).push(t);
+
+  const today=new Date().toISOString().slice(0,10);
+  const todayTickets=tickets.filter(t=>t.date===today);
+
+  app.innerHTML=`
+    <div class="section-title"><h2>旅行票夹</h2><small>${tickets.length} 份加密票据</small></div>
+
+    <section class="card vault-unlocked-head">
+      <div>
+        <div class="kicker">ENCRYPTED TICKET VAULT</div>
+        <h3>已解锁</h3>
+        <p>票据只在这个浏览器标签页中解密。GitHub 仓库保存的是 AES-GCM 加密文件，不保存密码。</p>
+      </div>
+      <div class="vault-toolbar">
+        <button class="button primary" id="cacheVaultBtn">缓存全部加密票据</button>
+        <button class="button" id="lockVaultBtn">锁定票夹</button>
+      </div>
+      <div id="vaultCacheStatus" class="offline-prep-status"></div>
+    </section>
+
+    ${todayTickets.length?`<section class="card vault-today">
+      <div class="kicker">TODAY</div>
+      <h3>今天需要的票</h3>
+      <div class="vault-ticket-list">${todayTickets.map(ticketCard).join("")}</div>
+    </section>`:""}
+
+    ${Object.entries(groups).map(([date,list])=>`<section class="card vault-group">
+      <div class="vault-group-head">
+        <div><span class="kicker">${date?esc(date):"OTHER"}</span><h3>${esc(ticketGroupLabel(date))}</h3></div>
+        <span>${list.length} 份</span>
+      </div>
+      <div class="vault-ticket-list">${list.map(ticketCard).join("")}</div>
+    </section>`).join("")}
+  `;
+
+  document.getElementById("lockVaultBtn")?.addEventListener("click",lockVault);
+  document.getElementById("cacheVaultBtn")?.addEventListener("click",cacheEntireVault);
+  document.querySelectorAll(".vault-open-btn").forEach(b=>{
+    b.addEventListener("click",()=>openVaultTicket(b.dataset.ticketId,b));
+  });
+}
+
+async function openVaultTicket(id,button){
+  const t=(VAULT.manifest?.tickets||[]).find(x=>x.id===id);
+  if(!t||!VAULT.key)return;
+  const original=button?.textContent;
+  if(button){button.disabled=true;button.textContent="正在解密…";}
+  // Open synchronously so iOS Safari does not treat it as a blocked popup.
+  const viewer=window.open("","_blank");
+  try{
+    const r=await vaultFetch(t.path);
+    const plain=await decryptVaultPayload(await r.arrayBuffer(),VAULT.key);
+    const blob=new Blob([plain],{type:t.mime||"application/octet-stream"});
+    const url=URL.createObjectURL(blob);
+    if(viewer){
+      viewer.location.href=url;
+    }else{
+      const a=document.createElement("a");
+      a.href=url;a.target="_blank";a.rel="noopener";a.click();
+    }
+    setTimeout(()=>URL.revokeObjectURL(url),5*60*1000);
+  }catch(e){
+    if(viewer)viewer.close();
+    alert(`票据打开失败：${e.message}`);
+  }finally{
+    if(button){button.disabled=false;button.textContent=original;}
+  }
+}
+
+async function cacheEntireVault(){
+  const btn=document.getElementById("cacheVaultBtn");
+  const status=document.getElementById("vaultCacheStatus");
+  if(btn)btn.disabled=true;
+  try{
+    const config=await loadVaultConfig();
+    const urls=[config.manifest,...(config.files||[])].map(vaultBaseUrl);
+    const cache=await caches.open("trip-ticket-vault-v32");
+    let n=0;
+    for(const url of urls){
+      const r=await fetch(url,{cache:"reload"});
+      if(r.ok){await cache.put(url,r.clone());n++;}
+      if(status)status.textContent=`正在缓存 ${n}/${urls.length}…`;
+    }
+    localStorage.setItem("tripVaultCachedAtV32",new Date().toLocaleString("zh-CN"));
+    if(status)status.textContent=`已缓存 ${n} 个加密票夹文件。本机无网时仍可解锁查看。`;
+  }catch(e){
+    if(status)status.textContent=`缓存失败：${e.message}`;
+  }finally{
+    if(btn)btn.disabled=false;
+  }
+}
+
+async function renderTickets(){
+  document.title="旅行票夹 · 2026 欧洲旅行";
+  if(VAULT.manifest)return renderUnlockedVault();
+
+  app.innerHTML=`
+    <div class="section-title"><h2>旅行票夹</h2><small>加密 · 一个密码解锁</small></div>
+    <section class="card vault-lock-card">
+      <div class="vault-lock-icon">🎟️</div>
+      <div class="kicker">ENCRYPTED TICKET VAULT</div>
+      <h2>输入旅行票夹密码</h2>
+      <p>这里可以直接打开少女峰、夜车、卢浮宫、凡尔赛宫、圣礼拜堂、埃菲尔铁塔等票据。密码不会上传到 GitHub，也不会发送到服务器。</p>
+      <form id="vaultUnlockForm" class="vault-form">
+        <input id="vaultPassword" type="password" autocomplete="current-password" placeholder="旅行票夹密码" required>
+        <label class="vault-remember"><input id="vaultRemember" type="checkbox" checked> 本次 Safari 使用期间记住密码</label>
+        <button class="button primary" type="submit">解锁全部票据</button>
+      </form>
+      <div id="vaultError" class="vault-error"></div>
+      <div class="vault-security-note">
+        <strong>安全说明</strong>
+        <p>公开仓库里只有加密后的二进制文件。请使用至少 12 位、不要容易猜到的密码；密码越弱，别人下载加密文件后离线猜密码的风险越高。</p>
+      </div>
+    </section>`;
+
+  const form=document.getElementById("vaultUnlockForm");
+  form?.addEventListener("submit",async e=>{
+    e.preventDefault();
+    const p=document.getElementById("vaultPassword").value;
+    const err=document.getElementById("vaultError");
+    err.textContent="正在解锁…";
+    try{
+      await unlockVault(p,{remember:document.getElementById("vaultRemember").checked});
+      renderUnlockedVault();
+    }catch(ex){
+      err.textContent=ex.message;
+    }
+  });
+
+  const saved=sessionStorage.getItem("tripVaultPasswordV32");
+  if(saved){
+    const input=document.getElementById("vaultPassword");
+    if(input)input.value=saved;
+    try{
+      await unlockVault(saved,{remember:true});
+      renderUnlockedVault();
+    }catch{
+      sessionStorage.removeItem("tripVaultPasswordV32");
+    }
+  }
 }
 
 function renderTodos(){

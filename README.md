@@ -1,26 +1,80 @@
-# Europe Trip 2026 — Public GitHub Pages Mirror
+# Europe Trip 2026 — GitHub Pages + Encrypted Ticket Vault
 
-Latest public read-only mirror of the main travel handbook, updated through V30 content changes.
+Public travel-handbook mirror with a client-side encrypted ticket wallet.
 
-Included:
-- daily itinerary and chronological schedules
-- latest Hotel Chalet Swiss route changes
-- Jungfraujoch / Grindelwald-First / Geneva / Zurich planning
-- public flight, train, bus and hotel information
-- city must-eat guides
-- restaurant Google-rating snapshots, signature dishes and Chinese explanations
-- interactive todo checklist
-- bilingual place names
+## What is public
 
-Intentionally NOT included:
-- real ticket PDF/JPG files or QR/barcodes
-- ticket download buttons
-- booking/order numbers
-- payment/card details
-- private pickup confirmations
-- Cloudflare admin/viewer backend or secrets
+- itinerary
+- food guide
+- transport / hotel information
+- todo checklist
+- encrypted ticket binary files
 
-Public itinerary status such as `已预订 / 已确认` may remain because it is ordinary planning information; the actual private ticket material is excluded.
+## What is NOT public in plaintext
 
-GitHub Pages URL:
+- ticket PDFs / images
+- QR codes / barcodes
+- booking confirmations
+- passenger-specific ticket details
+- ticket-vault password
+- Cloudflare secrets / admin
+
+Ticket files are encrypted locally with:
+
+- PBKDF2-HMAC-SHA256
+- 310,000 iterations
+- AES-256-GCM
+- random vault salt
+- random 96-bit IV per file
+
+GitHub receives only encrypted `.enc` files.
+
+## First-time setup
+
+From the GitHub Pages repository:
+
+```bash
+cd ~/Downloads/europe-trip-2026-pages
+
+# Copy the V32 site files here first, then:
+node build_ticket_vault.mjs \
+  ~/Downloads/travel-handbook-cloudflare/private-ticket-repo/tickets
+```
+
+The script asks for the vault password twice and does not save it.
+
+Use a memorable password of at least 12 characters.
+Do NOT use a 4–6 digit PIN.
+
+Then:
+
+```bash
+git add .
+git commit -m "Add encrypted web ticket vault"
+git push
+```
+
+GitHub Pages URL remains:
+
 https://yangyangqu.github.io/europe-trip-2026-pages/
+
+Ticket page:
+
+https://yangyangqu.github.io/europe-trip-2026-pages/#/tickets
+
+## How your companion uses it
+
+1. Open the GitHub Pages URL in Safari.
+2. Tap `票夹`.
+3. Enter the shared vault password.
+4. Tap a ticket to open its decrypted PDF/image.
+5. Tap `缓存全部加密票据` once on a good connection so encrypted ticket files are available offline too.
+
+The password can be remembered for the current Safari tab/session only.
+
+## Security note
+
+This is client-side encryption, not server-side access control.
+A strong password matters because anyone can download the encrypted files and try passwords offline.
+
+For highest operational reliability, important boarding passes / QR tickets should still also be saved to Apple Wallet or iPhone Files before travel.

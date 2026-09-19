@@ -865,3 +865,111 @@ footer{text-align:center;color:var(--muted);font-size:11px;padding:28px 6px}
 .must-eat-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:13px}.must-eat-card{display:grid;grid-template-columns:30px 1fr;gap:9px;align-items:start;padding:10px;border:1px solid #e2cfb8;border-radius:13px;background:#fffaf2}.must-eat-no{color:var(--brown);font-family:var(--serif);font-size:11px;font-weight:800;padding-top:2px}.must-eat-card strong{font-family:var(--serif);font-size:14px;color:var(--ink)}.must-eat-card p{margin:3px 0 0;color:var(--muted);font-size:10.5px;line-height:1.45}
 .restaurant-info-block{margin-top:9px}.restaurant-info-block p{margin:3px 0 0;color:var(--ink-2);font-size:12px;line-height:1.55}.restaurant-info-label{color:var(--brown);font-size:10px;font-weight:900;letter-spacing:.04em}.restaurant-info-label span{color:var(--muted);font-weight:600;letter-spacing:0}.signature-detail-list{display:flex;flex-direction:column;gap:7px;margin-top:8px}.signature-detail{padding:8px 9px;border-radius:11px;background:#edf3ee;border:1px solid #ccddcf}.signature-detail strong{display:block;color:var(--green);font-size:11px;line-height:1.35}.signature-detail p{margin:3px 0 0!important;color:var(--ink-2)!important;font-size:10.5px!important;line-height:1.5!important}.step-title,.agenda-title{overflow-wrap:anywhere}
 @media(max-width:760px){.local-food-intro{margin:0 10px 14px;padding:13px}.local-food-head h3{font-size:18px}.must-eat-grid{grid-template-columns:1fr}.step-title{font-size:16px}.agenda-title{font-size:10.5px}}
+
+
+/* ===== V32 encrypted ticket vault ===== */
+.vault-lock-card{
+  max-width:620px;
+  margin:0 auto 18px;
+  padding:24px 20px;
+  text-align:center;
+}
+.vault-lock-icon{font-size:38px;margin-bottom:5px}
+.vault-lock-card h2{
+  font-family:var(--serif);
+  font-size:28px;
+  margin:4px 0 8px;
+}
+.vault-lock-card>p{
+  color:var(--ink-2);
+  font-size:12px;
+  max-width:520px;
+  margin:0 auto 15px;
+}
+.vault-form{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  max-width:420px;
+  margin:0 auto;
+}
+.vault-form input[type=password]{
+  border:1px solid var(--line);
+  border-radius:12px;
+  background:var(--paper);
+  color:var(--ink);
+  padding:12px 13px;
+  font-size:16px;
+}
+.vault-remember{
+  display:flex;
+  gap:8px;
+  align-items:center;
+  color:var(--muted);
+  font-size:11px;
+  text-align:left;
+}
+.vault-error{min-height:20px;margin-top:9px;color:#a44335;font-size:11px;font-weight:700}
+.vault-security-note{
+  margin:15px auto 0;
+  max-width:500px;
+  border-top:1px dashed var(--line);
+  padding-top:12px;
+  text-align:left;
+  color:var(--muted);
+  font-size:10px;
+}
+.vault-security-note p{margin:3px 0 0}
+.vault-unlocked-head{
+  padding:16px;
+  margin-bottom:12px;
+}
+.vault-unlocked-head h3,.vault-today h3,.vault-group h3{
+  font-family:var(--serif);
+  margin:2px 0 4px;
+}
+.vault-unlocked-head p{font-size:11px;color:var(--muted);margin:0}
+.vault-toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.vault-today{
+  padding:15px;
+  border:1px solid #d6b67f;
+  background:#fff8e8;
+  margin-bottom:12px;
+}
+.vault-group{padding:14px;margin-bottom:12px}
+.vault-group-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:end;
+  gap:8px;
+  padding-bottom:9px;
+  border-bottom:1px solid var(--line-soft);
+}
+.vault-group-head>span{font-size:10px;color:var(--muted)}
+.vault-ticket-list{display:flex;flex-direction:column;gap:8px;margin-top:10px}
+.vault-ticket-card{
+  display:grid;
+  grid-template-columns:42px minmax(0,1fr) auto;
+  gap:10px;
+  align-items:center;
+  padding:10px;
+  border:1px solid var(--line-soft);
+  border-radius:13px;
+  background:var(--paper);
+}
+.vault-ticket-icon{
+  width:38px;height:38px;border-radius:10px;
+  display:grid;place-items:center;
+  background:#edf3ee;color:var(--green);
+  font-size:9px;font-weight:900;
+}
+.vault-ticket-copy{min-width:0}
+.vault-ticket-copy strong{font-size:13px;line-height:1.35;display:block}
+.vault-ticket-copy p{margin:3px 0 0;font-size:10px;color:var(--muted)}
+.vault-ticket-category{font-size:9px;color:var(--brown);font-weight:800;margin-bottom:2px}
+.mobile-nav a{min-width:0}
+@media(max-width:760px){
+  .mobile-nav a{font-size:9px;padding-left:1px;padding-right:1px}
+  .vault-ticket-card{grid-template-columns:38px minmax(0,1fr)}
+  .vault-ticket-card .vault-open-btn{grid-column:1 / -1;width:100%}
+}
