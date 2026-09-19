@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T21:30:00+02:00",
+  "generated_at": "2026-09-19T21:45:00+02:00",
   "days": [
     {
       "id": 1,
@@ -4180,10 +4180,10 @@
       "status": "planned",
       "sort_order": 30,
       "is_public": 1,
-      "intro": "First View 官方建议约 20 分钟；Cliff Walk 直接和山顶区域连在一起。",
+      "intro": "First View / First Cliff Walk 属于 First 山顶观景体验，不占 Adventure Package 的 2 个活动名额，也不需要另外购买一张 Adventure 项目票。",
       "price_label": "缆车票 CHF 38 起；Adventure Package CHF 60 起",
-      "buy_url": "https://www.jungfrau.ch/en-gb/grindelwaldfirst/",
-      "badge_text": "待购票",
+      "buy_url": null,
+      "badge_text": "免费观景 · 不需另购票",
       "title_zh": "First 观景台与悬崖步道",
       "title_en": "First View · First Cliff Walk",
       "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grindelwald-First.jpg?width=1400",
