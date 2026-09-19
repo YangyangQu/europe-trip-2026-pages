@@ -1,24 +1,26 @@
-# Europe Trip 2026 — GitHub Pages Mirror
+# Europe Trip 2026 — Public GitHub Pages Mirror
 
-Public, read-only travel handbook mirror for GitHub Pages.
+Latest public read-only mirror of the main travel handbook, updated through V30 content changes.
 
-This repository intentionally does NOT contain:
-- protected ticket PDFs / QR codes
-- booking secrets
-- Cloudflare Worker secrets
-- admin backend
+Included:
+- daily itinerary and chronological schedules
+- latest Hotel Chalet Swiss route changes
+- Jungfraujoch / Grindelwald-First / Geneva / Zurich planning
+- public flight, train, bus and hotel information
+- city must-eat guides
+- restaurant Google-rating snapshots, signature dishes and Chinese explanations
+- interactive todo checklist
+- bilingual place names
 
-## Publish with GitHub Pages
+Intentionally NOT included:
+- real ticket PDF/JPG files or QR/barcodes
+- ticket download buttons
+- booking/order numbers
+- payment/card details
+- private pickup confirmations
+- Cloudflare admin/viewer backend or secrets
 
-1. Push these files to the `main` branch.
-2. GitHub repository → Settings → Pages.
-3. Source: `Deploy from a branch`
-4. Branch: `main`
-5. Folder: `/ (root)`
-6. Save.
+Public itinerary status such as `已预订 / 已确认` may remain because it is ordinary planning information; the actual private ticket material is excluded.
 
-Expected URL:
-
+GitHub Pages URL:
 https://yangyangqu.github.io/europe-trip-2026-pages/
-
-The site uses hash routing, so daily pages work under the project subpath without special 404 handling.

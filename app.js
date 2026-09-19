@@ -85,7 +85,7 @@ function renderHome(){
     <div class="hero-copy">
       <div class="kicker">SEP 18 — OCT 02 · 15 DAYS</div>
       <h1>Switzerland · Italy · France</h1>
-      <div class="hero-sub">${n?`下一项：${esc(n.title_zh||n.title)} · ${fmt(n.date)} ${esc(n.time_label||"")}`:"2026 欧洲旅行手册"}</div>
+      <div class="hero-sub">${n?`下一项：${esc(displayTitle(n))} · ${fmt(n.date)} ${esc(n.time_label||"")}`:"2026 欧洲旅行手册"}</div>
       ${n?`<div class="countdown"><div class="timebox"><b id=d>--</b><span>天</span></div><div class="timebox"><b id=h>--</b><span>时</span></div><div class="timebox"><b id=m>--</b><span>分</span></div><div class="timebox"><b id=s>--</b><span>秒</span></div></div>`:""}
     </div>
   </section>
@@ -105,14 +105,15 @@ function renderHome(){
   if(n?.starts_at)countdown(n.starts_at);
 }
 
+function displayTitle(i){
+  const en=String(i?.title_en||"").trim();
+  const zh=String(i?.title_zh||"").trim();
+  if(en && zh && en!==zh)return `${en}（${zh}）`;
+  return en||zh||String(i?.title||"");
+}
+
 function renderInfo(){
-  const info=items.filter(i=>
-    ["flight","train","bus","ticket","hotel"].includes(i.item_type) ||
-    i.buy_url ||
-    i.has_protected_ticket ||
-    ["已出票","需购票","待出票","已购买","到店领取","需购买"].includes(i.badge_text)
-  );
-  const tickets=info.filter(i=>i.item_type==="ticket"||i.has_protected_ticket||i.buy_url||/票|购买/.test(String(i.badge_text||"")));
+  const info=items.filter(i=>["flight","train","bus","hotel"].includes(i.item_type));
   const flights=info.filter(i=>i.item_type==="flight");
   const ground=info.filter(i=>["train","bus"].includes(i.item_type));
   const hotels=info.filter(i=>i.item_type==="hotel");
@@ -120,28 +121,22 @@ function renderInfo(){
   const card=i=>{
     const map=i.map_query||i.address||i.location_name;
     return `<div class="flight-row">
-      <strong>Day ${i.day_no} · ${fmt(i.date)} · ${esc(i.title_zh||i.title)}</strong>
-      ${i.title_en?`<div class="step-title-en">${esc(i.title_en)}</div>`:""}
+      <strong>Day ${i.day_no} · ${fmt(i.date)} · ${esc(displayTitle(i))}</strong>
       <div style="color:var(--ink-2);font-size:13px;margin-top:4px">${esc(i.time_label||"")} ${i.description?`· ${esc(i.description)}`:""}</div>
       <div class="step-tags">${meaningfulTags(i)}</div>
-      ${i.has_protected_ticket?`<div class="protected-ticket-note">🔒 已有真实票据，但未放入公开 GitHub 镜像。请在手机 Files / 对应 App / 私有主站中查看。</div>`:""}
       <div class="buttons" style="margin-top:8px">
-        ${i.buy_url?`<a class="action buy" href="${attr(i.buy_url)}" target="_blank" rel="noopener">🎫 官方购票</a>`:""}
         ${map?`<a class="action" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(map)}" target="_blank" rel="noopener">🧭 Google 地图</a>`:""}
+        ${i.external_url?`<a class="action" href="${attr(i.external_url)}" target="_blank" rel="noopener">↗ 官网</a>`:""}
       </div>
     </div>`;
   };
 
   app.innerHTML=`
-    <div class="section-title"><h2>信息</h2><small>票务 · 航班 · 交通 · 住宿</small></div>
+    <div class="section-title"><h2>信息</h2><small>航班 · 交通 · 住宿</small></div>
     <section class="card mirror-note">
-      <div class="kicker">PUBLIC MIRROR</div>
-      <strong>这是公开只读备用站</strong>
-      <p>为了安全，真实门票 PDF、二维码、订单号以及管理后台均未同步到此仓库。</p>
-    </section>
-    <section class="card list-card">
-      <div class="info-section-head"><span class="kicker">TICKETS</span><h3>票务总览</h3></div>
-      ${tickets.length?tickets.map(card).join(""):`<div class="empty">暂无票务信息。</div>`}
+      <div class="kicker">PUBLIC GITHUB MIRROR</div>
+      <strong>公开只读备用站</strong>
+      <p>这里保留完整公开行程、交通、住宿、美食和待办；不包含真实票据 PDF、二维码、订单号、付款信息和管理后台。</p>
     </section>
     <div class="section-title"><h2>航班</h2><small>${flights.length} 段</small></div>
     <section class="card list-card">${flights.map(card).join("")||`<div class="empty">暂无航班。</div>`}</section>
@@ -152,7 +147,7 @@ function renderInfo(){
 
 function renderTodos(){
   const todos=items.filter(i=>i.item_type==="todo"||i.status==="todo");
-  const storageKey="europeTripChecklistDoneGitHubV21";
+  const storageKey="europeTripChecklistDoneGitHub";
   let done={};
   try{done=JSON.parse(localStorage.getItem(storageKey)||"{}")||{}}catch{done={}}
 
@@ -199,7 +194,7 @@ function todoRow(i,done,showDay){
   const official=i.external_url?`<a class="todo-official-link" href="${attr(i.external_url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">官网 ↗</a>`:"";
   return `<label class="checklist-row ${done[i.id]?"done":""}" data-todo-row="${i.id}">
     <input class="todo-checkbox" type="checkbox" data-todo-id="${i.id}" ${done[i.id]?"checked":""}>
-    <div>${dayMeta}<div class="todo-title-line"><strong>${esc(i.title_zh||i.title)}</strong>${official}</div>
+    <div>${dayMeta}<div class="todo-title-line"><strong>${esc(displayTitle(i))}</strong>${official}</div>
       <p>${esc(i.description||i.intro||"")}</p>
     </div>
   </label>`;
@@ -228,6 +223,7 @@ function renderDay(no){
       </div>
     </header>
     ${day.notes?`<div class="reminder"><b>当日提醒</b><p>${esc(day.notes)}</p></div>`:""}
+    ${localFoodIntro(day)}
     ${dayAgenda(normal)}
     <section class="timeline">${normal.map((i,idx)=>timelineItem(i,idx,normal.length,no)).join("")}</section>
   </article>
@@ -245,12 +241,11 @@ function timelineItem(i,idx,total,dayNo){
   if(i.buy_url)actions.push(`<a class="action buy" href="${attr(i.buy_url)}" target="_blank" rel="noopener">🎫 购票</a>`);
   if(i.external_url)actions.push(`<a class="action" href="${attr(i.external_url)}" target="_blank" rel="noopener">↗ 官网</a>`);
   if(i.item_type==="meal")actions.push(`<a class="action primary" href="${routeHref(`/food?day=${dayNo}&meal=${i.id}`)}">🍴 美食推荐</a>`);
-  if(i.has_protected_ticket)actions.push(`<span class="action protected-static">🔒 票据未公开</span>`);
 
   const optional=i.status==="flexible";
   const connector=idx<total-1?`<div class="connector">${connectionText(i)}</div>`:"";
+  const display=displayTitle(i);
   const zh=i.title_zh||i.title;
-  const en=i.title_en||"";
   const media=i.image_url?`<figure class="step-media">
       <img src="${attr(i.image_url)}" alt="${attr(i.image_alt||zh)}" loading="lazy" referrerpolicy="no-referrer">
       <figcaption><span class="image-note">${esc(i.image_alt||"行程参考图")}</span></figcaption>
@@ -260,8 +255,7 @@ function timelineItem(i,idx,total,dayNo){
     <div class="step-no">${idx+1}</div>
     <div class="step-main">
       <div class="step-time">${esc(i.time_label||"时间待定")}</div>
-      <div class="step-title">${esc(zh)}</div>
-      ${en?`<div class="step-title-en">${esc(en)}</div>`:""}
+      <div class="step-title">${esc(display)}</div>
       ${media}
       ${i.description?`<div class="step-desc">${esc(i.description)}</div>`:""}
       ${i.intro?`<div class="step-intro">${esc(i.intro)}</div>`:""}
@@ -299,9 +293,81 @@ function dayAgenda(list){
     <div class="agenda-list">${list.map((i,idx)=>`<div class="agenda-row">
       <div class="agenda-time">${esc(i.time_label||"时间待定")}</div>
       <div class="agenda-dot"><span>${idx+1}</span></div>
-      <div class="agenda-title">${esc(i.title_zh||i.title)}</div>
+      <div class="agenda-title">${esc(displayTitle(i))}</div>
     </div>`).join("")}</div>
   </section>`;
+}
+
+function parseSpecialties(raw){
+  return String(raw||"").split("|").map(x=>x.trim()).filter(Boolean).map(x=>{
+    const p=x.split("::");
+    return {name:(p.shift()||"").trim(),desc:p.join("::").trim()};
+  });
+}
+function parseRestaurantDescription(raw){
+  const s=String(raw||"");
+  const marker="【招牌】";
+  if(!s.includes(marker))return {about:s,signatures:[]};
+  const [about,sig]=s.split(marker);
+  return {about:about.trim(),signatures:String(sig||"").split("|").map(x=>x.trim()).filter(Boolean)};
+}
+const SIGNATURE_GLOSSARY={
+  "Carbonara":"罗马经典意面：鸡蛋、Pecorino 羊奶酪、guanciale 猪颊肉和黑胡椒；传统做法不加奶油。",
+  "Cacio e Pepe":"罗马经典意面：Pecorino Romano 羊奶酪 + 黑胡椒，用面水乳化成浓郁酱汁。",
+  "Amatriciana":"番茄、guanciale 猪颊肉和 Pecorino 羊奶酪做的罗马经典意面，酸香咸鲜。",
+  "Gricia":"没有番茄和鸡蛋的罗马意面：guanciale 猪颊肉、Pecorino 羊奶酪和黑胡椒。",
+  "Rösti":"瑞士薯饼：土豆刨丝煎到外脆内软，可配肉、蛋或酱汁。",
+  "Älplermagronen":"瑞士高山通心粉：通心粉、土豆、奶酪、奶油和炸洋葱，常配苹果泥。",
+  "Fondue moitié-moitié":"瑞士经典奶酪火锅：通常由 Gruyère 和 Vacherin Fribourgeois 混合，蘸面包吃。",
+  "Cheese fondue with Gruyère & Vacherin":"Gruyère + Vacherin 奶酪火锅，蘸面包吃。",
+  "Raclette with potatoes & pickles":"融化 Raclette 奶酪配土豆、酸黄瓜和腌洋葱。",
+  "Luzerner Chügelipastete":"卢塞恩代表菜：大酥皮盅里装奶油汁肉丸、蘑菇等馅料。",
+  "Zürcher Geschnetzeltes":"苏黎世代表菜：切片小牛肉配奶油蘑菇白汁，通常搭 Rösti。",
+  "Socca":"尼斯代表小吃：鹰嘴豆粉和橄榄油做的薄饼，外缘焦脆。",
+  "Pissaladière":"南法咸饼：慢炒洋葱、橄榄和凤尾鱼铺在面饼上。",
+  "Salade niçoise":"尼斯沙拉：番茄、鸡蛋、橄榄、凤尾鱼/金枪鱼等组成。",
+  "Petits farcis":"尼斯传统填馅蔬菜：西葫芦、番茄、洋葱等填肉馅/面包馅烤制。",
+  "Daube niçoise":"尼斯风味红酒慢炖牛肉。",
+  "Boeuf bourguignon":"勃艮第红酒炖牛肉。",
+  "Confit de canard":"油封鸭腿：鸭肉软嫩、外皮酥脆。",
+  "Duck confit":"油封鸭腿：鸭肉软嫩、外皮酥脆。",
+  "Soupe à l’oignon":"法式洋葱汤，通常加面包和奶酪焗烤。",
+  "Soupe à l’oignon gratinée":"焗烤法式洋葱汤，上面铺面包和奶酪烤至金黄。",
+  "Steak-frites":"法式 bistro 经典：牛排配炸薯条。",
+  "Escargots":"法式蜗牛，常用蒜香欧芹黄油烤制。",
+  "Crème brûlée":"法式焦糖布丁：奶蛋布丁上覆盖焦糖脆壳。",
+  "Tiramisù":"提拉米苏：咖啡浸手指饼干 + mascarpone 奶酪霜 + 可可粉。",
+  "Tiramisu":"提拉米苏：咖啡、mascarpone、手指饼干和可可粉组成。",
+  "Biryani":"南亚香料焖饭，米饭与肉类/蔬菜分层焖制。",
+  "Butter chicken":"印度奶油鸡：番茄、黄油和香料做的浓郁咖喱鸡。",
+  "Naan":"印度烤饼，常用于蘸咖喱。",
+  "Sole meunière":"法式黄油香煎鳎目鱼，以黄油、柠檬和欧芹调味。",
+  "Seafood platter":"综合海鲜拼盘，通常含贝类、虾、蟹等。",
+  "Oysters":"生蚝，通常配柠檬或醋汁。",
+  "Crêpe":"法式可丽饼，可做甜口或咸口。",
+  "Sweet crêpe":"甜可丽饼，可搭糖、巧克力、焦糖或水果。",
+  "Saucisse-purée":"香肠配土豆泥，典型法式家常菜。",
+  "Île flottante":"漂浮岛甜点：蛋白霜浮在英式奶油酱上，通常淋焦糖。"
+};
+function explainSignature(name){
+  if(SIGNATURE_GLOSSARY[name])return SIGNATURE_GLOSSARY[name];
+  const s=String(name||"").toLowerCase();
+  if(s.includes("fish"))return "鱼类/海鲜料理，具体鱼种和做法以当天菜单为准。";
+  if(s.includes("seafood"))return "海鲜料理，可能包含鱼、虾、贝类或章鱼等。";
+  if(s.includes("meat")||s.includes("steak"))return "肉类主菜，具体肉类和做法以当天菜单为准。";
+  if(s.includes("pasta"))return "意面类主食，面型和酱汁以当天菜单为准。";
+  if(s.includes("pizza"))return "披萨，配料和口味以当天菜单为准。";
+  if(s.includes("salad"))return "沙拉类轻食/前菜，具体配料按当天菜单。";
+  if(s.includes("dessert")||s.includes("cake")||s.includes("pastr"))return "甜点/糕点，具体品种以当天菜单为准。";
+  if(s.includes("cheese"))return "奶酪类料理或拼盘，具体奶酪以当天菜单为准。";
+  if(s.includes("sausage"))return "香肠类热食，常配土豆、面包或蔬菜。";
+  if(s.includes("mediterranean"))return "地中海风格料理，常用橄榄油、番茄、香草和海鲜。";
+  return "餐厅当前菜单中的推荐菜；具体食材和做法以当天菜单为准。";
+}
+function localFoodIntro(day){
+  const specs=parseSpecialties(day.food_specialties);
+  if(!day.food_intro&&!specs.length)return"";
+  return `<section class="local-food-intro"><div class="local-food-head"><div><small>LOCAL FOOD</small><h3>今天当地最值得吃什么</h3></div><a class="action" href="${routeHref(`/food?day=${day.day_no}`)}">🍴 查看餐厅</a></div>${day.food_intro?`<p>${esc(day.food_intro)}</p>`:""}${specs.length?`<div class="specialty-list">${specs.map(x=>`<span class="specialty">${esc(x.name)}</span>`).join("")}</div>`:""}</section>`;
 }
 
 function renderFood(params){
@@ -315,7 +381,7 @@ function renderFood(params){
   const all=dayItems(no);
   const meals=all.filter(i=>i.item_type==="meal").sort((a,b)=>(a.sort_order||0)-(b.sort_order||0));
   const restaurants=all.filter(i=>i.item_type==="restaurant");
-  const specs=(day.food_specialties||"").split("|").map(x=>x.trim()).filter(Boolean);
+  const specs=parseSpecialties(day.food_specialties);
 
   const mealSections=meals.map((meal,mealIndex)=>{
     const list=restaurants.filter(r=>Number(r.meal_anchor_id)===Number(meal.id)).sort((a,b)=>(a.sort_order||0)-(b.sort_order||0));
@@ -342,9 +408,9 @@ function renderFood(params){
   </section>
   <div class="date-strip">${days.map(x=>`<a class="date-tab ${x.day_no===no?"active":""}" href="${routeHref(`/food?day=${x.day_no}`)}"><b>${fmt(x.date)}</b><span>D${x.day_no}</span></a>`).join("")}</div>
   <section class="card food-guide">
-    <div class="food-hero"><div class="kicker">LOCAL FOOD</div><h3>当天地区值得吃什么</h3>
+    <div class="food-hero"><div class="kicker">LOCAL FOOD</div><h3>这个城市 / 区域有哪些必吃</h3>
       ${day.food_intro?`<p>${esc(day.food_intro)}</p>`:""}
-      ${specs.length?`<div class="specialty-list">${specs.map(x=>`<span class="specialty">${esc(x)}</span>`).join("")}</div>`:""}
+      ${specs.length?`<div class="must-eat-grid">${specs.map((x,idx)=>`<div class="must-eat-card"><div class="must-eat-no">${String(idx+1).padStart(2,"0")}</div><div><strong>${esc(x.name)}</strong>${x.desc?`<p>${esc(x.desc)}</p>`:""}</div></div>`).join("")}</div>`:""}
     </div>
     ${mealSections||`<div class="empty">这一天还没有设置饭点。</div>`}
     <div class="rating-note">Google 评分为最近核对时的快照，可能变化；到店前建议再确认最新营业时间。</div>
@@ -355,19 +421,18 @@ function renderFood(params){
   if(selectedMeal)setTimeout(()=>document.getElementById(`meal-${selectedMeal}`)?.scrollIntoView({behavior:"smooth",block:"start"}),80);
 }
 function restaurant(i,rank){
-  const rating=i.google_rating!=null
-    ? `<div class="google-rating"><span class="star">★</span><b>${Number(i.google_rating).toFixed(1)}</b><span>Google</span>${i.google_review_count!=null?`<small>${Number(i.google_review_count).toLocaleString("en-US")} 条评价</small>`:""}</div>`
-    : `<div class="google-rating muted-rating">Google 评分待补</div>`;
+  const rating=i.google_rating!=null?`<div class="google-rating"><span class="star">★</span><b>${Number(i.google_rating).toFixed(1)}</b><span>Google</span>${i.google_review_count!=null?`<small>${Number(i.google_review_count).toLocaleString("en-US")} 条评价</small>`:""}</div>`:`<div class="google-rating muted-rating">Google 评分待补</div>`;
+  const detail=parseRestaurantDescription(i.description);
+  const why=i.intro||detail.about||"";
   return `<article class="restaurant-card">
     <div class="rank">RECOMMEND ${String(rank).padStart(2,"0")}</div>
     <div class="restaurant-title-row"><h4>${esc(i.title)}</h4>${rating}</div>
-    <p>${esc(i.intro||i.description||"")}</p>
+    ${why?`<div class="restaurant-info-block"><div class="restaurant-info-label">为什么推荐</div><p>${esc(why)}</p></div>`:""}
+    ${detail.about&&detail.about!==why?`<div class="restaurant-info-block"><div class="restaurant-info-label">餐厅特点</div><p>${esc(detail.about)}</p></div>`:""}
+    ${detail.signatures.length?`<div class="restaurant-info-block signature-block"><div class="restaurant-info-label">招牌 / 推荐点单 <span>以当天菜单为准</span></div><div class="signature-detail-list">${detail.signatures.map(x=>`<div class="signature-detail"><strong>${esc(x)}</strong><p>${esc(explainSignature(x))}</p></div>`).join("")}</div></div>`:""}
     ${i.price_label?`<div class="price">${esc(i.price_label)}</div>`:""}
     ${i.badge_text?`<div style="margin-top:7px"><span class="tag gold">${esc(i.badge_text)}</span></div>`:""}
-    <div class="buttons">
-      <a class="action primary" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(i.map_query||i.address||i.title)}" target="_blank" rel="noopener">Google 地图</a>
-      ${i.external_url?`<a class="action" href="${attr(i.external_url)}" target="_blank" rel="noopener">官网 / 菜单</a>`:""}
-    </div>
+    <div class="buttons"><a class="action primary" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(i.map_query||i.address||i.title)}" target="_blank" rel="noopener">Google 地图</a>${i.external_url?`<a class="action" href="${attr(i.external_url)}" target="_blank" rel="noopener">官网 / 菜单</a>`:""}</div>
   </article>`;
 }
 

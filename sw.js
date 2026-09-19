@@ -1,4 +1,4 @@
-const CACHE="trip-github-v21";
+const CACHE="trip-github-v31-latest";
 const FILES=["./","./index.html","./styles.css","./app.js","./data.json","./manifest.webmanifest","./trip-icon.svg"];
 
 self.addEventListener("install",event=>{
