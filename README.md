@@ -1,3 +1,7 @@
+# V33 Live Geneva Replan
+
+Updated 2026-09-19 around 13:00 CEST: luggage already shipped via SBB; day-pass pickup moved to ~13:00; Geneva route compressed and optimized; main train target 16:54 Genève → 19:53 Interlaken West.
+
 # Europe Trip 2026 — GitHub Pages + Encrypted Ticket Vault
 
 Public travel-handbook mirror with a client-side encrypted ticket wallet.
