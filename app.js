@@ -85,7 +85,7 @@ function renderHome(){
     <div class="hero-illustration"></div>
     <div class="hero-copy">
       <div class="kicker">SEP 18 — OCT 02 · 15 DAYS</div>
-      <h1>Switzerland · Italy · France</h1>
+      <h1>瑞士 · 意大利 · 法国（Switzerland · Italy · France）</h1>
       <div class="hero-sub">${n?`下一项：${esc(displayTitle(n))} · ${fmt(n.date)} ${esc(n.time_label||"")}`:"2026 欧洲旅行手册"}</div>
       ${n?`<div class="countdown"><div class="timebox"><b id=d>--</b><span>天</span></div><div class="timebox"><b id=h>--</b><span>时</span></div><div class="timebox"><b id=m>--</b><span>分</span></div><div class="timebox"><b id=s>--</b><span>秒</span></div></div>`:""}
     </div>
@@ -109,8 +109,8 @@ function renderHome(){
 function displayTitle(i){
   const en=String(i?.title_en||"").trim();
   const zh=String(i?.title_zh||"").trim();
-  if(en && zh && en!==zh)return `${en}（${zh}）`;
-  return en||zh||String(i?.title||"");
+  if(en && zh && en!==zh)return `${zh}（${en}）`;
+  return zh||en||String(i?.title||"");
 }
 
 function renderInfo(){
@@ -653,7 +653,7 @@ function renderFood(params){
     return `<section class="meal-food-section" id="meal-${meal.id}">
       <div class="meal-food-head"><div>
         <div class="kicker">MEAL ${String(mealIndex+1).padStart(2,"0")}</div>
-        <h2>${esc(meal.time_label||"饭点")} · ${esc(meal.title_zh||meal.title)}</h2>
+        <h2>${esc(meal.time_label||"饭点")} · ${esc(displayTitle(meal))}</h2>
         <p>${esc(meal.description||"")}</p>
       </div>
       ${meal.map_query||meal.location_name?`<a class="action" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(meal.map_query||meal.location_name)}">饭点附近地图</a>`:""}</div>
@@ -669,7 +669,7 @@ function renderFood(params){
     <div class="food-day-picker"><label for="foodDaySelect">选择第几天</label>
       <select id="foodDaySelect">${days.map(x=>`<option value="${x.day_no}" ${x.day_no===no?"selected":""}>Day ${x.day_no} · ${fmt(x.date)} · ${esc(x.title)}</option>`).join("")}</select>
     </div>
-    ${meals.length?`<div class="meal-chip-row">${meals.map(m=>`<button class="meal-chip ${selectedMeal===m.id?"active":""}" data-meal="${m.id}">${esc(m.time_label||"饭点")} · ${esc(m.title_zh||m.title)}</button>`).join("")}</div>`:""}
+    ${meals.length?`<div class="meal-chip-row">${meals.map(m=>`<button class="meal-chip ${selectedMeal===m.id?"active":""}" data-meal="${m.id}">${esc(m.time_label||"饭点")} · ${esc(displayTitle(m))}</button>`).join("")}</div>`:""}
   </section>
   <div class="date-strip">${days.map(x=>`<a class="date-tab ${x.day_no===no?"active":""}" href="${routeHref(`/food?day=${x.day_no}`)}"><b>${fmt(x.date)}</b><span>D${x.day_no}</span></a>`).join("")}</div>
   <section class="card food-guide">
@@ -691,7 +691,7 @@ function restaurant(i,rank){
   const why=i.intro||detail.about||"";
   return `<article class="restaurant-card">
     <div class="rank">RECOMMEND ${String(rank).padStart(2,"0")}</div>
-    <div class="restaurant-title-row"><h4>${esc(i.title)}</h4>${rating}</div>
+    <div class="restaurant-title-row"><h4>${esc(displayTitle(i))}</h4>${rating}</div>
     ${why?`<div class="restaurant-info-block"><div class="restaurant-info-label">为什么推荐</div><p>${esc(why)}</p></div>`:""}
     ${detail.about&&detail.about!==why?`<div class="restaurant-info-block"><div class="restaurant-info-label">餐厅特点</div><p>${esc(detail.about)}</p></div>`:""}
     ${detail.signatures.length?`<div class="restaurant-info-block signature-block"><div class="restaurant-info-label">招牌 / 推荐点单 <span>以当天菜单为准</span></div><div class="signature-detail-list">${detail.signatures.map(x=>`<div class="signature-detail"><strong>${esc(x)}</strong><p>${esc(explainSignature(x))}</p></div>`).join("")}</div></div>`:""}
