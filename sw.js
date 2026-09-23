@@ -1,4 +1,4 @@
-const CACHE="trip-github-v35-first-ticket-fix";
+const CACHE="trip-github-v36-rome-replan";
 const FILES=["./","./index.html","./styles.css","./app.js","./data.json","./manifest.webmanifest","./trip-icon.svg"];
 
 self.addEventListener("install",event=>{
