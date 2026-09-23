@@ -1,4 +1,4 @@
-const CACHE="trip-github-v38-bilingual-titles";
+const CACHE="trip-github-v39-rome-evening-route";
 const FILES=["./","./index.html","./styles.css","./app.js","./data.json","./manifest.webmanifest","./trip-icon.svg"];
 
 self.addEventListener("install",event=>{
