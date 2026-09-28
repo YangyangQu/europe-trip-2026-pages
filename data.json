@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T12:30:00+02:00",
+  "generated_at": "2026-09-28T18:05:00+02:00",
   "days": [
     {
       "id": 1,
@@ -118,7 +118,7 @@
       "title": "巴黎 → 卢浮宫（Paris → Louvre）",
       "subtitle": "14:00 卢浮宫为刚性锚点",
       "tz_label": "France CEST UTC+2",
-      "notes": "夜车若晚点，砍上午轻量行程",
+      "notes": "巴黎住宿已改为 Hotel Palm - Astotel（30 Rue de Maubeuge, 75009 Paris）。夜车到 Paris Austerlitz 后，最省事的公共交通是地铁 5 号线直达 Gare du Nord，再步行约 12 分钟到酒店。14:00 卢浮宫仍是固定锚点。",
       "food_intro": "Paris 第一天先吃最经典的 brasserie / bouillon。重点不是“高级法餐”，而是洋葱汤、牛排薯条、鸭腿、蜗牛和传统甜点。",
       "food_specialties": "Soupe à l’oignon::焗烤法式洋葱汤，巴黎 brasserie 代表菜|Steak-frites::牛排配薯条，最经典的巴黎 bistro 主菜|Confit de canard::油封鸭腿，外脆内嫩|Escargots::黄油蒜香蜗牛|Croque-monsieur::火腿芝士烤吐司|Crème brûlée::焦糖脆壳法式布丁"
     },
@@ -129,7 +129,7 @@
       "title": "凡尔赛宫一日 · 晚上塞纳河游船（Versailles Day Trip · Seine Cruise at Night）",
       "subtitle": "12:00 凡尔赛宫定时入场 · 花园与特里亚农 · 返回巴黎游船",
       "tz_label": "France CEST UTC+2",
-      "notes": "今天的硬时间是凡尔赛宫主宫殿 12:00 入场。票面要求从 Pavillon Dufour 的 A 入口进入，并允许在预约时段后的半小时内进入；建议 11:30 左右到 A 入口附近，12:00 按票入场。晚上把不锁具体时间的 Bateaux-Mouches 放在返回巴黎之后。",
+      "notes": "12:00 凡尔赛宫主宫殿固定入场。住宿现为 Hotel Palm - Astotel。推荐从酒店步行约 6 分钟到 Notre-Dame-de-Lorette，乘地铁 12 号线到 Solférino，步行到 Musée d’Orsay 的 RER C，再坐 RER C 到 Versailles Château Rive Gauche。返程去 Pont de l’Alma 可继续直接坐 RER C。",
       "food_intro": "Versailles 这天午餐在宫苑内，重点是顺路而不是跨城找名店。下午返回巴黎后晚餐再吃 brasserie。宫苑里可以尝法式经典、galette 和 crêpe。",
       "food_specialties": "Galette de sarrasin::荞麦咸可丽饼，适合景区午餐|Crêpe::甜可丽饼，法国旅行非常经典|French seasonal plate::按季节变化的法式主菜|Cheese / charcuterie::简单奶酪与冷肉拼盘|French pastry::巴黎/凡尔赛都适合下午甜点"
     },
@@ -140,7 +140,7 @@
       "title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "subtitle": "12:00 圣礼拜堂定时入场 · 21:30 埃菲尔铁塔登顶",
       "tz_label": "France CEST UTC+2",
-      "notes": "今天有两个固定票务时间：圣礼拜堂 12:00、埃菲尔铁塔 21:30。上午只安排西岱岛附近，避免跨城后赶 12:00；下午再去蒙马特；傍晚提前到铁塔一带吃饭和看夜景。",
+      "notes": "住宿现为 Hotel Palm - Astotel。上午从 Cadet 乘地铁 7 号线去 Châtelet / 西岱岛最省事；下午从左岸去蒙马特用地铁 4 号线 + 2 号线；蒙马特去铁塔用 2 号线 + 6 号线到 Trocadéro，路线比从原 17 区酒店出发更顺。",
       "food_intro": "上午西岱岛，中午 Latin Quarter，下午 Montmartre，晚上 Eiffel。今天可以集中补巴黎经典：洋葱汤、steak-frites、galette、鸭肉料理和传统法式甜点。",
       "food_specialties": "Soupe à l’oignon::焗烤洋葱汤|Steak-frites::巴黎 bistro 经典|Boeuf bourguignon::红酒炖牛肉|Galette / Crêpe::左岸或 Montmartre 都适合|Confit de canard::油封鸭腿|Paris-Brest / Île flottante::经典法式甜点"
     },
@@ -151,7 +151,7 @@
       "title": "巴黎 → 西安（Paris → Xi’an）",
       "subtitle": "返程长航段",
       "tz_label": "Paris CEST UTC+2",
-      "notes": "HU7908",
+      "notes": "Paris 住宿为 Hotel Palm - Astotel。13:30 HU7908 从 CDG T1 起飞。推荐 09:30 左右离开酒店，步行约 12 分钟到 Gare du Nord，乘 RER B 到 Aéroport Charles de Gaulle 1，再乘免费 CDGVAL 到 Terminal 1。",
       "food_intro": null,
       "food_specialties": null
     },
@@ -200,7 +200,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -236,7 +236,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -272,7 +272,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -308,7 +308,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -344,7 +344,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -380,7 +380,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -416,7 +416,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -452,7 +452,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -488,7 +488,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -524,7 +524,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -560,7 +560,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -596,7 +596,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -632,7 +632,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -668,7 +668,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -704,7 +704,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -740,7 +740,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -776,7 +776,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -812,7 +812,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -848,7 +848,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -884,7 +884,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -920,7 +920,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -956,7 +956,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -992,7 +992,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1028,7 +1028,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1064,7 +1064,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1100,7 +1100,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1136,7 +1136,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1172,7 +1172,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1208,7 +1208,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1244,7 +1244,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1280,7 +1280,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1316,7 +1316,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1352,7 +1352,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1388,7 +1388,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1424,7 +1424,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1460,7 +1460,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1496,7 +1496,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1532,7 +1532,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1568,7 +1568,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1604,7 +1604,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1640,7 +1640,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1676,7 +1676,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1712,7 +1712,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1748,7 +1748,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1784,7 +1784,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1820,7 +1820,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1856,7 +1856,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1892,7 +1892,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1928,7 +1928,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -1964,7 +1964,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2000,7 +2000,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2036,7 +2036,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2072,7 +2072,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2108,7 +2108,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2144,7 +2144,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2180,7 +2180,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2216,7 +2216,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2252,7 +2252,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2288,7 +2288,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2324,7 +2324,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2360,7 +2360,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2396,7 +2396,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2432,7 +2432,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2468,7 +2468,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2504,7 +2504,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2540,7 +2540,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2576,7 +2576,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2612,7 +2612,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2648,7 +2648,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2684,7 +2684,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2720,7 +2720,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2756,7 +2756,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2792,7 +2792,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2828,7 +2828,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2864,7 +2864,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2900,7 +2900,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2936,7 +2936,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -2972,7 +2972,7 @@
       "meal_anchor_id": null,
       "day_no": 1,
       "date": "2026-09-18",
-      "day_title": "海口 → 上海",
+      "day_title": "海口 → 上海（Haikou → Shanghai）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -3008,7 +3008,7 @@
       "meal_anchor_id": null,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3044,7 +3044,7 @@
       "meal_anchor_id": null,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3080,7 +3080,7 @@
       "meal_anchor_id": null,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3116,7 +3116,7 @@
       "meal_anchor_id": null,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3152,7 +3152,7 @@
       "meal_anchor_id": null,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3188,7 +3188,7 @@
       "meal_anchor_id": null,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3224,7 +3224,7 @@
       "meal_anchor_id": null,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3260,7 +3260,7 @@
       "meal_anchor_id": null,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3296,7 +3296,7 @@
       "meal_anchor_id": null,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3332,7 +3332,7 @@
       "meal_anchor_id": null,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3368,7 +3368,7 @@
       "meal_anchor_id": null,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3404,7 +3404,7 @@
       "meal_anchor_id": null,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3440,7 +3440,7 @@
       "meal_anchor_id": null,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3476,7 +3476,7 @@
       "meal_anchor_id": null,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3512,7 +3512,7 @@
       "meal_anchor_id": null,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3548,7 +3548,7 @@
       "meal_anchor_id": null,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3584,7 +3584,7 @@
       "meal_anchor_id": null,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3620,7 +3620,7 @@
       "meal_anchor_id": null,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3656,7 +3656,7 @@
       "meal_anchor_id": null,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3692,7 +3692,7 @@
       "meal_anchor_id": null,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3728,7 +3728,7 @@
       "meal_anchor_id": 21001,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3764,7 +3764,7 @@
       "meal_anchor_id": 21002,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3800,7 +3800,7 @@
       "meal_anchor_id": null,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3836,7 +3836,7 @@
       "meal_anchor_id": 21002,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3872,7 +3872,7 @@
       "meal_anchor_id": 21001,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3908,7 +3908,7 @@
       "meal_anchor_id": 21002,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3944,7 +3944,7 @@
       "meal_anchor_id": 21001,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -3980,7 +3980,7 @@
       "meal_anchor_id": 21002,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4016,7 +4016,7 @@
       "meal_anchor_id": 21001,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4052,7 +4052,7 @@
       "meal_anchor_id": 21001,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4088,7 +4088,7 @@
       "meal_anchor_id": null,
       "day_no": 2,
       "date": "2026-09-19",
-      "day_title": "Geneva 半日游 → Interlaken",
+      "day_title": "上海 → 日内瓦 → 因特拉肯（Shanghai → Geneva → Interlaken）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4124,7 +4124,7 @@
       "meal_anchor_id": null,
       "day_no": 3,
       "date": "2026-09-20",
-      "day_title": "Grindelwald-First Adventure（格林德瓦 First 冒险日）",
+      "day_title": "格林德瓦 · First（Grindelwald · First）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4160,7 +4160,7 @@
       "meal_anchor_id": null,
       "day_no": 3,
       "date": "2026-09-20",
-      "day_title": "Grindelwald-First Adventure（格林德瓦 First 冒险日）",
+      "day_title": "格林德瓦 · First（Grindelwald · First）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4196,7 +4196,7 @@
       "meal_anchor_id": null,
       "day_no": 3,
       "date": "2026-09-20",
-      "day_title": "Grindelwald-First Adventure（格林德瓦 First 冒险日）",
+      "day_title": "格林德瓦 · First（Grindelwald · First）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4232,7 +4232,7 @@
       "meal_anchor_id": null,
       "day_no": 3,
       "date": "2026-09-20",
-      "day_title": "Grindelwald-First Adventure（格林德瓦 First 冒险日）",
+      "day_title": "格林德瓦 · First（Grindelwald · First）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4268,7 +4268,7 @@
       "meal_anchor_id": null,
       "day_no": 3,
       "date": "2026-09-20",
-      "day_title": "Grindelwald-First Adventure（格林德瓦 First 冒险日）",
+      "day_title": "格林德瓦 · First（Grindelwald · First）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4304,7 +4304,7 @@
       "meal_anchor_id": null,
       "day_no": 3,
       "date": "2026-09-20",
-      "day_title": "Grindelwald-First Adventure（格林德瓦 First 冒险日）",
+      "day_title": "格林德瓦 · First（Grindelwald · First）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4340,7 +4340,7 @@
       "meal_anchor_id": null,
       "day_no": 3,
       "date": "2026-09-20",
-      "day_title": "Grindelwald-First Adventure（格林德瓦 First 冒险日）",
+      "day_title": "格林德瓦 · First（Grindelwald · First）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4376,7 +4376,7 @@
       "meal_anchor_id": null,
       "day_no": 3,
       "date": "2026-09-20",
-      "day_title": "Grindelwald-First Adventure（格林德瓦 First 冒险日）",
+      "day_title": "格林德瓦 · First（Grindelwald · First）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4412,7 +4412,7 @@
       "meal_anchor_id": null,
       "day_no": 3,
       "date": "2026-09-20",
-      "day_title": "Grindelwald-First Adventure（格林德瓦 First 冒险日）",
+      "day_title": "格林德瓦 · First（Grindelwald · First）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4448,7 +4448,7 @@
       "meal_anchor_id": null,
       "day_no": 3,
       "date": "2026-09-20",
-      "day_title": "Grindelwald-First Adventure（格林德瓦 First 冒险日）",
+      "day_title": "格林德瓦 · First（Grindelwald · First）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4484,7 +4484,7 @@
       "meal_anchor_id": null,
       "day_no": 3,
       "date": "2026-09-20",
-      "day_title": "Grindelwald-First Adventure（格林德瓦 First 冒险日）",
+      "day_title": "格林德瓦 · First（Grindelwald · First）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4520,7 +4520,7 @@
       "meal_anchor_id": null,
       "day_no": 3,
       "date": "2026-09-20",
-      "day_title": "Grindelwald-First Adventure（格林德瓦 First 冒险日）",
+      "day_title": "格林德瓦 · First（Grindelwald · First）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4556,7 +4556,7 @@
       "meal_anchor_id": null,
       "day_no": 3,
       "date": "2026-09-20",
-      "day_title": "Grindelwald-First Adventure（格林德瓦 First 冒险日）",
+      "day_title": "格林德瓦 · First（Grindelwald · First）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4592,7 +4592,7 @@
       "meal_anchor_id": 31001,
       "day_no": 3,
       "date": "2026-09-20",
-      "day_title": "Grindelwald-First Adventure（格林德瓦 First 冒险日）",
+      "day_title": "格林德瓦 · First（Grindelwald · First）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4628,7 +4628,7 @@
       "meal_anchor_id": 31002,
       "day_no": 3,
       "date": "2026-09-20",
-      "day_title": "Grindelwald-First Adventure（格林德瓦 First 冒险日）",
+      "day_title": "格林德瓦 · First（Grindelwald · First）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4664,7 +4664,7 @@
       "meal_anchor_id": 31002,
       "day_no": 3,
       "date": "2026-09-20",
-      "day_title": "Grindelwald-First Adventure（格林德瓦 First 冒险日）",
+      "day_title": "格林德瓦 · First（Grindelwald · First）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4700,7 +4700,7 @@
       "meal_anchor_id": 31001,
       "day_no": 3,
       "date": "2026-09-20",
-      "day_title": "Grindelwald-First Adventure（格林德瓦 First 冒险日）",
+      "day_title": "格林德瓦 · First（Grindelwald · First）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4736,7 +4736,7 @@
       "meal_anchor_id": 31002,
       "day_no": 3,
       "date": "2026-09-20",
-      "day_title": "Grindelwald-First Adventure（格林德瓦 First 冒险日）",
+      "day_title": "格林德瓦 · First（Grindelwald · First）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4772,7 +4772,7 @@
       "meal_anchor_id": 31001,
       "day_no": 3,
       "date": "2026-09-20",
-      "day_title": "Grindelwald-First Adventure（格林德瓦 First 冒险日）",
+      "day_title": "格林德瓦 · First（Grindelwald · First）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4808,7 +4808,7 @@
       "meal_anchor_id": 31002,
       "day_no": 3,
       "date": "2026-09-20",
-      "day_title": "Grindelwald-First Adventure（格林德瓦 First 冒险日）",
+      "day_title": "格林德瓦 · First（Grindelwald · First）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4844,7 +4844,7 @@
       "meal_anchor_id": null,
       "day_no": 4,
       "date": "2026-09-21",
-      "day_title": "Jungfraujoch → Lucerne（少女峰 → 卢塞恩）",
+      "day_title": "少女峰 → 卢塞恩（Jungfraujoch → Lucerne）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4880,7 +4880,7 @@
       "meal_anchor_id": null,
       "day_no": 4,
       "date": "2026-09-21",
-      "day_title": "Jungfraujoch → Lucerne（少女峰 → 卢塞恩）",
+      "day_title": "少女峰 → 卢塞恩（Jungfraujoch → Lucerne）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4916,7 +4916,7 @@
       "meal_anchor_id": null,
       "day_no": 4,
       "date": "2026-09-21",
-      "day_title": "Jungfraujoch → Lucerne（少女峰 → 卢塞恩）",
+      "day_title": "少女峰 → 卢塞恩（Jungfraujoch → Lucerne）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4952,7 +4952,7 @@
       "meal_anchor_id": null,
       "day_no": 4,
       "date": "2026-09-21",
-      "day_title": "Jungfraujoch → Lucerne（少女峰 → 卢塞恩）",
+      "day_title": "少女峰 → 卢塞恩（Jungfraujoch → Lucerne）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -4988,7 +4988,7 @@
       "meal_anchor_id": null,
       "day_no": 4,
       "date": "2026-09-21",
-      "day_title": "Jungfraujoch → Lucerne（少女峰 → 卢塞恩）",
+      "day_title": "少女峰 → 卢塞恩（Jungfraujoch → Lucerne）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5024,7 +5024,7 @@
       "meal_anchor_id": null,
       "day_no": 4,
       "date": "2026-09-21",
-      "day_title": "Jungfraujoch → Lucerne（少女峰 → 卢塞恩）",
+      "day_title": "少女峰 → 卢塞恩（Jungfraujoch → Lucerne）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5060,7 +5060,7 @@
       "meal_anchor_id": null,
       "day_no": 4,
       "date": "2026-09-21",
-      "day_title": "Jungfraujoch → Lucerne（少女峰 → 卢塞恩）",
+      "day_title": "少女峰 → 卢塞恩（Jungfraujoch → Lucerne）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5096,7 +5096,7 @@
       "meal_anchor_id": null,
       "day_no": 4,
       "date": "2026-09-21",
-      "day_title": "Jungfraujoch → Lucerne（少女峰 → 卢塞恩）",
+      "day_title": "少女峰 → 卢塞恩（Jungfraujoch → Lucerne）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5132,7 +5132,7 @@
       "meal_anchor_id": null,
       "day_no": 4,
       "date": "2026-09-21",
-      "day_title": "Jungfraujoch → Lucerne（少女峰 → 卢塞恩）",
+      "day_title": "少女峰 → 卢塞恩（Jungfraujoch → Lucerne）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5168,7 +5168,7 @@
       "meal_anchor_id": null,
       "day_no": 4,
       "date": "2026-09-21",
-      "day_title": "Jungfraujoch → Lucerne（少女峰 → 卢塞恩）",
+      "day_title": "少女峰 → 卢塞恩（Jungfraujoch → Lucerne）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5204,7 +5204,7 @@
       "meal_anchor_id": null,
       "day_no": 4,
       "date": "2026-09-21",
-      "day_title": "Jungfraujoch → Lucerne（少女峰 → 卢塞恩）",
+      "day_title": "少女峰 → 卢塞恩（Jungfraujoch → Lucerne）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5240,7 +5240,7 @@
       "meal_anchor_id": null,
       "day_no": 4,
       "date": "2026-09-21",
-      "day_title": "Jungfraujoch → Lucerne（少女峰 → 卢塞恩）",
+      "day_title": "少女峰 → 卢塞恩（Jungfraujoch → Lucerne）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5276,7 +5276,7 @@
       "meal_anchor_id": null,
       "day_no": 4,
       "date": "2026-09-21",
-      "day_title": "Jungfraujoch → Lucerne（少女峰 → 卢塞恩）",
+      "day_title": "少女峰 → 卢塞恩（Jungfraujoch → Lucerne）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5312,7 +5312,7 @@
       "meal_anchor_id": 41001,
       "day_no": 4,
       "date": "2026-09-21",
-      "day_title": "Jungfraujoch → Lucerne（少女峰 → 卢塞恩）",
+      "day_title": "少女峰 → 卢塞恩（Jungfraujoch → Lucerne）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5348,7 +5348,7 @@
       "meal_anchor_id": 41002,
       "day_no": 4,
       "date": "2026-09-21",
-      "day_title": "Jungfraujoch → Lucerne（少女峰 → 卢塞恩）",
+      "day_title": "少女峰 → 卢塞恩（Jungfraujoch → Lucerne）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5384,7 +5384,7 @@
       "meal_anchor_id": 41001,
       "day_no": 4,
       "date": "2026-09-21",
-      "day_title": "Jungfraujoch → Lucerne（少女峰 → 卢塞恩）",
+      "day_title": "少女峰 → 卢塞恩（Jungfraujoch → Lucerne）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5420,7 +5420,7 @@
       "meal_anchor_id": 41002,
       "day_no": 4,
       "date": "2026-09-21",
-      "day_title": "Jungfraujoch → Lucerne（少女峰 → 卢塞恩）",
+      "day_title": "少女峰 → 卢塞恩（Jungfraujoch → Lucerne）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5456,7 +5456,7 @@
       "meal_anchor_id": 41001,
       "day_no": 4,
       "date": "2026-09-21",
-      "day_title": "Jungfraujoch → Lucerne（少女峰 → 卢塞恩）",
+      "day_title": "少女峰 → 卢塞恩（Jungfraujoch → Lucerne）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5492,7 +5492,7 @@
       "meal_anchor_id": 41002,
       "day_no": 4,
       "date": "2026-09-21",
-      "day_title": "Jungfraujoch → Lucerne（少女峰 → 卢塞恩）",
+      "day_title": "少女峰 → 卢塞恩（Jungfraujoch → Lucerne）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5528,7 +5528,7 @@
       "meal_anchor_id": 41001,
       "day_no": 4,
       "date": "2026-09-21",
-      "day_title": "Jungfraujoch → Lucerne（少女峰 → 卢塞恩）",
+      "day_title": "少女峰 → 卢塞恩（Jungfraujoch → Lucerne）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5564,7 +5564,7 @@
       "meal_anchor_id": null,
       "day_no": 4,
       "date": "2026-09-21",
-      "day_title": "Jungfraujoch → Lucerne（少女峰 → 卢塞恩）",
+      "day_title": "少女峰 → 卢塞恩（Jungfraujoch → Lucerne）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5600,7 +5600,7 @@
       "meal_anchor_id": null,
       "day_no": 4,
       "date": "2026-09-21",
-      "day_title": "Jungfraujoch → Lucerne（少女峰 → 卢塞恩）",
+      "day_title": "少女峰 → 卢塞恩（Jungfraujoch → Lucerne）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5636,7 +5636,7 @@
       "meal_anchor_id": null,
       "day_no": 4,
       "date": "2026-09-21",
-      "day_title": "Jungfraujoch → Lucerne（少女峰 → 卢塞恩）",
+      "day_title": "少女峰 → 卢塞恩（Jungfraujoch → Lucerne）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5672,7 +5672,7 @@
       "meal_anchor_id": null,
       "day_no": 4,
       "date": "2026-09-21",
-      "day_title": "Jungfraujoch → Lucerne（少女峰 → 卢塞恩）",
+      "day_title": "少女峰 → 卢塞恩（Jungfraujoch → Lucerne）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5708,7 +5708,7 @@
       "meal_anchor_id": null,
       "day_no": 4,
       "date": "2026-09-21",
-      "day_title": "Jungfraujoch → Lucerne（少女峰 → 卢塞恩）",
+      "day_title": "少女峰 → 卢塞恩（Jungfraujoch → Lucerne）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5744,7 +5744,7 @@
       "meal_anchor_id": null,
       "day_no": 4,
       "date": "2026-09-21",
-      "day_title": "Jungfraujoch → Lucerne（少女峰 → 卢塞恩）",
+      "day_title": "少女峰 → 卢塞恩（Jungfraujoch → Lucerne）",
       "tz_label": "瑞士 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5780,7 +5780,7 @@
       "meal_anchor_id": null,
       "day_no": 5,
       "date": "2026-09-22",
-      "day_title": "Zürich · 航班取消后改签",
+      "day_title": "苏黎世 · 航班取消后改签（Zürich · Rebooking after Flight Cancellation）",
       "tz_label": "瑞士/意大利 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5816,7 +5816,7 @@
       "meal_anchor_id": null,
       "day_no": 5,
       "date": "2026-09-22",
-      "day_title": "Zürich · 航班取消后改签",
+      "day_title": "苏黎世 · 航班取消后改签（Zürich · Rebooking after Flight Cancellation）",
       "tz_label": "瑞士/意大利 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5852,7 +5852,7 @@
       "meal_anchor_id": null,
       "day_no": 5,
       "date": "2026-09-22",
-      "day_title": "Zürich · 航班取消后改签",
+      "day_title": "苏黎世 · 航班取消后改签（Zürich · Rebooking after Flight Cancellation）",
       "tz_label": "瑞士/意大利 CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5888,7 +5888,7 @@
       "meal_anchor_id": null,
       "day_no": 6,
       "date": "2026-09-23",
-      "day_title": "Zürich → Frankfurt → Rome · 罗马晚间",
+      "day_title": "苏黎世 → 法兰克福 → 罗马 · 西班牙阶梯 / 许愿池夜游（Zürich → Frankfurt → Rome · Spanish Steps / Trevi Night Walk）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5924,7 +5924,7 @@
       "meal_anchor_id": null,
       "day_no": 6,
       "date": "2026-09-23",
-      "day_title": "Zürich → Frankfurt → Rome · 罗马晚间",
+      "day_title": "苏黎世 → 法兰克福 → 罗马 · 西班牙阶梯 / 许愿池夜游（Zürich → Frankfurt → Rome · Spanish Steps / Trevi Night Walk）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5960,7 +5960,7 @@
       "meal_anchor_id": null,
       "day_no": 6,
       "date": "2026-09-23",
-      "day_title": "Zürich → Frankfurt → Rome · 罗马晚间",
+      "day_title": "苏黎世 → 法兰克福 → 罗马 · 西班牙阶梯 / 许愿池夜游（Zürich → Frankfurt → Rome · Spanish Steps / Trevi Night Walk）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -5996,7 +5996,7 @@
       "meal_anchor_id": null,
       "day_no": 6,
       "date": "2026-09-23",
-      "day_title": "Zürich → Frankfurt → Rome · 罗马晚间",
+      "day_title": "苏黎世 → 法兰克福 → 罗马 · 西班牙阶梯 / 许愿池夜游（Zürich → Frankfurt → Rome · Spanish Steps / Trevi Night Walk）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -6032,7 +6032,7 @@
       "meal_anchor_id": null,
       "day_no": 6,
       "date": "2026-09-23",
-      "day_title": "Zürich → Frankfurt → Rome · 罗马晚间",
+      "day_title": "苏黎世 → 法兰克福 → 罗马 · 西班牙阶梯 / 许愿池夜游（Zürich → Frankfurt → Rome · Spanish Steps / Trevi Night Walk）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -6068,7 +6068,7 @@
       "meal_anchor_id": null,
       "day_no": 6,
       "date": "2026-09-23",
-      "day_title": "Zürich → Frankfurt → Rome · 罗马晚间",
+      "day_title": "苏黎世 → 法兰克福 → 罗马 · 西班牙阶梯 / 许愿池夜游（Zürich → Frankfurt → Rome · Spanish Steps / Trevi Night Walk）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -6104,7 +6104,7 @@
       "meal_anchor_id": null,
       "day_no": 6,
       "date": "2026-09-23",
-      "day_title": "Zürich → Frankfurt → Rome · 罗马晚间",
+      "day_title": "苏黎世 → 法兰克福 → 罗马 · 西班牙阶梯 / 许愿池夜游（Zürich → Frankfurt → Rome · Spanish Steps / Trevi Night Walk）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -6176,7 +6176,7 @@
       "meal_anchor_id": null,
       "day_no": 6,
       "date": "2026-09-23",
-      "day_title": "Zürich → Frankfurt → Rome · 罗马晚间",
+      "day_title": "苏黎世 → 法兰克福 → 罗马 · 西班牙阶梯 / 许愿池夜游（Zürich → Frankfurt → Rome · Spanish Steps / Trevi Night Walk）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -6212,7 +6212,7 @@
       "meal_anchor_id": null,
       "day_no": 6,
       "date": "2026-09-23",
-      "day_title": "Zürich → Frankfurt → Rome · 罗马晚间",
+      "day_title": "苏黎世 → 法兰克福 → 罗马 · 西班牙阶梯 / 许愿池夜游（Zürich → Frankfurt → Rome · Spanish Steps / Trevi Night Walk）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -6248,7 +6248,7 @@
       "meal_anchor_id": 61002,
       "day_no": 6,
       "date": "2026-09-23",
-      "day_title": "Zürich → Frankfurt → Rome · 罗马晚间",
+      "day_title": "苏黎世 → 法兰克福 → 罗马 · 西班牙阶梯 / 许愿池夜游（Zürich → Frankfurt → Rome · Spanish Steps / Trevi Night Walk）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -6284,7 +6284,7 @@
       "meal_anchor_id": 61002,
       "day_no": 6,
       "date": "2026-09-23",
-      "day_title": "Zürich → Frankfurt → Rome · 罗马晚间",
+      "day_title": "苏黎世 → 法兰克福 → 罗马 · 西班牙阶梯 / 许愿池夜游（Zürich → Frankfurt → Rome · Spanish Steps / Trevi Night Walk）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -6320,7 +6320,7 @@
       "meal_anchor_id": 61002,
       "day_no": 6,
       "date": "2026-09-23",
-      "day_title": "Zürich → Frankfurt → Rome · 罗马晚间",
+      "day_title": "苏黎世 → 法兰克福 → 罗马 · 西班牙阶梯 / 许愿池夜游（Zürich → Frankfurt → Rome · Spanish Steps / Trevi Night Walk）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -6356,7 +6356,7 @@
       "meal_anchor_id": null,
       "day_no": 7,
       "date": "2026-09-24",
-      "day_title": "Rome 全日压缩 · Vatican + Colosseum",
+      "day_title": "罗马核心必去 · 梵蒂冈 + 斗兽场（Rome Must-Sees · Vatican + Colosseum）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -6392,7 +6392,7 @@
       "meal_anchor_id": null,
       "day_no": 7,
       "date": "2026-09-24",
-      "day_title": "Rome 全日压缩 · Vatican + Colosseum",
+      "day_title": "罗马核心必去 · 梵蒂冈 + 斗兽场（Rome Must-Sees · Vatican + Colosseum）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -6428,7 +6428,7 @@
       "meal_anchor_id": null,
       "day_no": 7,
       "date": "2026-09-24",
-      "day_title": "Rome 全日压缩 · Vatican + Colosseum",
+      "day_title": "罗马核心必去 · 梵蒂冈 + 斗兽场（Rome Must-Sees · Vatican + Colosseum）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -6464,7 +6464,7 @@
       "meal_anchor_id": null,
       "day_no": 7,
       "date": "2026-09-24",
-      "day_title": "Rome 全日压缩 · Vatican + Colosseum",
+      "day_title": "罗马核心必去 · 梵蒂冈 + 斗兽场（Rome Must-Sees · Vatican + Colosseum）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -6500,7 +6500,7 @@
       "meal_anchor_id": null,
       "day_no": 7,
       "date": "2026-09-24",
-      "day_title": "Rome 全日压缩 · Vatican + Colosseum",
+      "day_title": "罗马核心必去 · 梵蒂冈 + 斗兽场（Rome Must-Sees · Vatican + Colosseum）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -6536,7 +6536,7 @@
       "meal_anchor_id": null,
       "day_no": 7,
       "date": "2026-09-24",
-      "day_title": "Rome 全日压缩 · Vatican + Colosseum",
+      "day_title": "罗马核心必去 · 梵蒂冈 + 斗兽场（Rome Must-Sees · Vatican + Colosseum）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -6572,7 +6572,7 @@
       "meal_anchor_id": null,
       "day_no": 7,
       "date": "2026-09-24",
-      "day_title": "Rome 全日压缩 · Vatican + Colosseum",
+      "day_title": "罗马核心必去 · 梵蒂冈 + 斗兽场（Rome Must-Sees · Vatican + Colosseum）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -6608,7 +6608,7 @@
       "meal_anchor_id": null,
       "day_no": 7,
       "date": "2026-09-24",
-      "day_title": "Rome 全日压缩 · Vatican + Colosseum",
+      "day_title": "罗马核心必去 · 梵蒂冈 + 斗兽场（Rome Must-Sees · Vatican + Colosseum）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -6644,7 +6644,7 @@
       "meal_anchor_id": 71002,
       "day_no": 7,
       "date": "2026-09-24",
-      "day_title": "Rome 全日压缩 · Vatican + Colosseum",
+      "day_title": "罗马核心必去 · 梵蒂冈 + 斗兽场（Rome Must-Sees · Vatican + Colosseum）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -6680,7 +6680,7 @@
       "meal_anchor_id": 71001,
       "day_no": 7,
       "date": "2026-09-24",
-      "day_title": "Rome 全日压缩 · Vatican + Colosseum",
+      "day_title": "罗马核心必去 · 梵蒂冈 + 斗兽场（Rome Must-Sees · Vatican + Colosseum）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -6716,7 +6716,7 @@
       "meal_anchor_id": 71001,
       "day_no": 7,
       "date": "2026-09-24",
-      "day_title": "Rome 全日压缩 · Vatican + Colosseum",
+      "day_title": "罗马核心必去 · 梵蒂冈 + 斗兽场（Rome Must-Sees · Vatican + Colosseum）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -6752,7 +6752,7 @@
       "meal_anchor_id": 71002,
       "day_no": 7,
       "date": "2026-09-24",
-      "day_title": "Rome 全日压缩 · Vatican + Colosseum",
+      "day_title": "罗马核心必去 · 梵蒂冈 + 斗兽场（Rome Must-Sees · Vatican + Colosseum）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -6788,7 +6788,7 @@
       "meal_anchor_id": 71001,
       "day_no": 7,
       "date": "2026-09-24",
-      "day_title": "Rome 全日压缩 · Vatican + Colosseum",
+      "day_title": "罗马核心必去 · 梵蒂冈 + 斗兽场（Rome Must-Sees · Vatican + Colosseum）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -6824,7 +6824,7 @@
       "meal_anchor_id": 71002,
       "day_no": 7,
       "date": "2026-09-24",
-      "day_title": "Rome 全日压缩 · Vatican + Colosseum",
+      "day_title": "罗马核心必去 · 梵蒂冈 + 斗兽场（Rome Must-Sees · Vatican + Colosseum）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -6860,7 +6860,7 @@
       "meal_anchor_id": 71001,
       "day_no": 7,
       "date": "2026-09-24",
-      "day_title": "Rome 全日压缩 · Vatican + Colosseum",
+      "day_title": "罗马核心必去 · 梵蒂冈 + 斗兽场（Rome Must-Sees · Vatican + Colosseum）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -6896,7 +6896,7 @@
       "meal_anchor_id": null,
       "day_no": 7,
       "date": "2026-09-24",
-      "day_title": "Rome 全日压缩 · Vatican + Colosseum",
+      "day_title": "罗马核心必去 · 梵蒂冈 + 斗兽场（Rome Must-Sees · Vatican + Colosseum）",
       "tz_label": "Rome CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -6932,7 +6932,7 @@
       "meal_anchor_id": null,
       "day_no": 8,
       "date": "2026-09-25",
-      "day_title": "Rome 最后上午 → Nice → Antibes",
+      "day_title": "罗马最后上午 → 尼斯 → 安提布（Rome Final Morning → Nice → Antibes）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -6968,7 +6968,7 @@
       "meal_anchor_id": null,
       "day_no": 8,
       "date": "2026-09-25",
-      "day_title": "Rome 最后上午 → Nice → Antibes",
+      "day_title": "罗马最后上午 → 尼斯 → 安提布（Rome Final Morning → Nice → Antibes）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7004,7 +7004,7 @@
       "meal_anchor_id": null,
       "day_no": 8,
       "date": "2026-09-25",
-      "day_title": "Rome 最后上午 → Nice → Antibes",
+      "day_title": "罗马最后上午 → 尼斯 → 安提布（Rome Final Morning → Nice → Antibes）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7040,7 +7040,7 @@
       "meal_anchor_id": null,
       "day_no": 8,
       "date": "2026-09-25",
-      "day_title": "Rome 最后上午 → Nice → Antibes",
+      "day_title": "罗马最后上午 → 尼斯 → 安提布（Rome Final Morning → Nice → Antibes）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7076,7 +7076,7 @@
       "meal_anchor_id": null,
       "day_no": 8,
       "date": "2026-09-25",
-      "day_title": "Rome 最后上午 → Nice → Antibes",
+      "day_title": "罗马最后上午 → 尼斯 → 安提布（Rome Final Morning → Nice → Antibes）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7112,7 +7112,7 @@
       "meal_anchor_id": null,
       "day_no": 8,
       "date": "2026-09-25",
-      "day_title": "Rome 最后上午 → Nice → Antibes",
+      "day_title": "罗马最后上午 → 尼斯 → 安提布（Rome Final Morning → Nice → Antibes）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7148,7 +7148,7 @@
       "meal_anchor_id": null,
       "day_no": 8,
       "date": "2026-09-25",
-      "day_title": "Rome 最后上午 → Nice → Antibes",
+      "day_title": "罗马最后上午 → 尼斯 → 安提布（Rome Final Morning → Nice → Antibes）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7184,7 +7184,7 @@
       "meal_anchor_id": null,
       "day_no": 8,
       "date": "2026-09-25",
-      "day_title": "Rome 最后上午 → Nice → Antibes",
+      "day_title": "罗马最后上午 → 尼斯 → 安提布（Rome Final Morning → Nice → Antibes）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7220,7 +7220,7 @@
       "meal_anchor_id": null,
       "day_no": 8,
       "date": "2026-09-25",
-      "day_title": "Rome 最后上午 → Nice → Antibes",
+      "day_title": "罗马最后上午 → 尼斯 → 安提布（Rome Final Morning → Nice → Antibes）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7256,7 +7256,7 @@
       "meal_anchor_id": 81002,
       "day_no": 8,
       "date": "2026-09-25",
-      "day_title": "Rome 最后上午 → Nice → Antibes",
+      "day_title": "罗马最后上午 → 尼斯 → 安提布（Rome Final Morning → Nice → Antibes）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7292,7 +7292,7 @@
       "meal_anchor_id": 81001,
       "day_no": 8,
       "date": "2026-09-25",
-      "day_title": "Rome 最后上午 → Nice → Antibes",
+      "day_title": "罗马最后上午 → 尼斯 → 安提布（Rome Final Morning → Nice → Antibes）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7328,7 +7328,7 @@
       "meal_anchor_id": 81002,
       "day_no": 8,
       "date": "2026-09-25",
-      "day_title": "Rome 最后上午 → Nice → Antibes",
+      "day_title": "罗马最后上午 → 尼斯 → 安提布（Rome Final Morning → Nice → Antibes）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7364,7 +7364,7 @@
       "meal_anchor_id": 81001,
       "day_no": 8,
       "date": "2026-09-25",
-      "day_title": "Rome 最后上午 → Nice → Antibes",
+      "day_title": "罗马最后上午 → 尼斯 → 安提布（Rome Final Morning → Nice → Antibes）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7400,7 +7400,7 @@
       "meal_anchor_id": 81002,
       "day_no": 8,
       "date": "2026-09-25",
-      "day_title": "Rome 最后上午 → Nice → Antibes",
+      "day_title": "罗马最后上午 → 尼斯 → 安提布（Rome Final Morning → Nice → Antibes）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7436,7 +7436,7 @@
       "meal_anchor_id": 81001,
       "day_no": 8,
       "date": "2026-09-25",
-      "day_title": "Rome 最后上午 → Nice → Antibes",
+      "day_title": "罗马最后上午 → 尼斯 → 安提布（Rome Final Morning → Nice → Antibes）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7472,7 +7472,7 @@
       "meal_anchor_id": 81002,
       "day_no": 8,
       "date": "2026-09-25",
-      "day_title": "Rome 最后上午 → Nice → Antibes",
+      "day_title": "罗马最后上午 → 尼斯 → 安提布（Rome Final Morning → Nice → Antibes）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7508,7 +7508,7 @@
       "meal_anchor_id": 81002,
       "day_no": 8,
       "date": "2026-09-25",
-      "day_title": "Rome 最后上午 → Nice → Antibes",
+      "day_title": "罗马最后上午 → 尼斯 → 安提布（Rome Final Morning → Nice → Antibes）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7544,7 +7544,7 @@
       "meal_anchor_id": 81002,
       "day_no": 8,
       "date": "2026-09-25",
-      "day_title": "Rome 最后上午 → Nice → Antibes",
+      "day_title": "罗马最后上午 → 尼斯 → 安提布（Rome Final Morning → Nice → Antibes）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7580,7 +7580,7 @@
       "meal_anchor_id": null,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7616,7 +7616,7 @@
       "meal_anchor_id": null,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7652,7 +7652,7 @@
       "meal_anchor_id": null,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7688,7 +7688,7 @@
       "meal_anchor_id": null,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7724,7 +7724,7 @@
       "meal_anchor_id": null,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7760,7 +7760,7 @@
       "meal_anchor_id": null,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7796,7 +7796,7 @@
       "meal_anchor_id": null,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7832,7 +7832,7 @@
       "meal_anchor_id": null,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7868,7 +7868,7 @@
       "meal_anchor_id": null,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7904,7 +7904,7 @@
       "meal_anchor_id": null,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7940,7 +7940,7 @@
       "meal_anchor_id": null,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -7976,7 +7976,7 @@
       "meal_anchor_id": null,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8012,7 +8012,7 @@
       "meal_anchor_id": null,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8048,7 +8048,7 @@
       "meal_anchor_id": null,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8084,7 +8084,7 @@
       "meal_anchor_id": 91002,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8120,7 +8120,7 @@
       "meal_anchor_id": 91001,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8156,7 +8156,7 @@
       "meal_anchor_id": 91002,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8192,7 +8192,7 @@
       "meal_anchor_id": null,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8228,7 +8228,7 @@
       "meal_anchor_id": 91001,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8264,7 +8264,7 @@
       "meal_anchor_id": null,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8300,7 +8300,7 @@
       "meal_anchor_id": 91002,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8336,7 +8336,7 @@
       "meal_anchor_id": 91001,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8372,7 +8372,7 @@
       "meal_anchor_id": 91002,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8408,7 +8408,7 @@
       "meal_anchor_id": 91001,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8444,7 +8444,7 @@
       "meal_anchor_id": null,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8480,7 +8480,7 @@
       "meal_anchor_id": 91002,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8516,7 +8516,7 @@
       "meal_anchor_id": null,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8552,7 +8552,7 @@
       "meal_anchor_id": 91002,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8588,7 +8588,7 @@
       "meal_anchor_id": null,
       "day_no": 9,
       "date": "2026-09-26",
-      "day_title": "Menton · Monaco · Èze · Nice",
+      "day_title": "芒通 · 摩纳哥 · 埃兹 · 尼斯（Menton · Monaco · Èze · Nice）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8624,7 +8624,7 @@
       "meal_anchor_id": null,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8660,7 +8660,7 @@
       "meal_anchor_id": null,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8696,7 +8696,7 @@
       "meal_anchor_id": null,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8732,7 +8732,7 @@
       "meal_anchor_id": null,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8768,7 +8768,7 @@
       "meal_anchor_id": null,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8804,7 +8804,7 @@
       "meal_anchor_id": null,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8840,7 +8840,7 @@
       "meal_anchor_id": null,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8876,7 +8876,7 @@
       "meal_anchor_id": null,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8912,7 +8912,7 @@
       "meal_anchor_id": null,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8948,7 +8948,7 @@
       "meal_anchor_id": null,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -8984,7 +8984,7 @@
       "meal_anchor_id": null,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9020,7 +9020,7 @@
       "meal_anchor_id": null,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9056,7 +9056,7 @@
       "meal_anchor_id": null,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9092,7 +9092,7 @@
       "meal_anchor_id": null,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9128,7 +9128,7 @@
       "meal_anchor_id": null,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9164,7 +9164,7 @@
       "meal_anchor_id": null,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9200,7 +9200,7 @@
       "meal_anchor_id": 10101,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9236,7 +9236,7 @@
       "meal_anchor_id": 10102,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9272,7 +9272,7 @@
       "meal_anchor_id": null,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9308,7 +9308,7 @@
       "meal_anchor_id": null,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9344,7 +9344,7 @@
       "meal_anchor_id": 10101,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9380,7 +9380,7 @@
       "meal_anchor_id": 10102,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9416,7 +9416,7 @@
       "meal_anchor_id": null,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9452,7 +9452,7 @@
       "meal_anchor_id": null,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9488,7 +9488,7 @@
       "meal_anchor_id": 10101,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9524,7 +9524,7 @@
       "meal_anchor_id": 10102,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9560,7 +9560,7 @@
       "meal_anchor_id": null,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9596,7 +9596,7 @@
       "meal_anchor_id": null,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9632,7 +9632,7 @@
       "meal_anchor_id": 10101,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9668,7 +9668,7 @@
       "meal_anchor_id": 10102,
       "day_no": 10,
       "date": "2026-09-27",
-      "day_title": "Cannes · Antibes · 夜车去 Paris",
+      "day_title": "戛纳 · 安提布 → 巴黎夜火车（Cannes · Antibes → Paris Night Train）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9678,22 +9678,22 @@
       "time_label": "早晨",
       "starts_at": null,
       "item_type": "train",
-      "title": "夜车抵达 Paris Austerlitz",
-      "description": "先去酒店寄存行李。",
-      "location_name": "Paris Austerlitz",
+      "title": "夜车抵达巴黎奥斯特里茨站 → Hotel Palm（Night Train Arrival → Hotel Palm）",
+      "description": "从 Gare d’Austerlitz 乘地铁 5 号线直达 Gare du Nord；出站后步行约 12 分钟到 Hotel Palm - Astotel（30 Rue de Maubeuge）。先寄存行李，再按当天安排出发。",
+      "location_name": "Paris Austerlitz → Gare du Nord → Hotel Palm - Astotel",
       "address": null,
       "phone": null,
-      "map_query": "Paris Austerlitz",
+      "map_query": "Paris Austerlitz to Hotel Palm Astotel Paris",
       "external_url": null,
-      "status": "todo",
+      "status": "planned",
       "sort_order": 10,
       "is_public": 1,
-      "intro": null,
+      "intro": "不用绕去 17 区；新酒店就在 Gare du Nord / Cadet 一带。",
       "price_label": null,
       "buy_url": null,
-      "badge_text": null,
-      "title_zh": "夜车抵达巴黎奥斯特里茨站",
-      "title_en": "Night Train Arrives at Paris Austerlitz",
+      "badge_text": "M5 + 步行",
+      "title_zh": "夜车抵达巴黎奥斯特里茨站 → Hotel Palm",
+      "title_en": "Night Train Arrival at Paris Austerlitz → Hotel Palm",
       "image_url": null,
       "image_alt": null,
       "image_credit": null,
@@ -9704,7 +9704,7 @@
       "meal_anchor_id": null,
       "day_no": 11,
       "date": "2026-09-28",
-      "day_title": "Paris → Louvre",
+      "day_title": "巴黎 → 卢浮宫（Paris → Louvre）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9714,22 +9714,22 @@
       "time_label": "上午",
       "starts_at": null,
       "item_type": "hotel",
-      "title": "Elysees Niel Hotel · 寄存行李",
-      "description": "双人间带露台；2 人；不含早餐。",
-      "location_name": "Elysees Niel Hotel",
-      "address": "11 Rue Saussier Leroy, 75017 Paris, France",
-      "phone": "+33 1 42 27 99 29",
-      "map_query": "Elysees Niel Hotel Paris",
-      "external_url": null,
+      "title": "巴黎 Astotel 棕榈酒店 · 寄存 / 入住（Hotel Palm - Astotel · Luggage Storage / Check-in）",
+      "description": "巴黎住宿改为 Hotel Palm - Astotel。地址：30 Rue de Maubeuge, 75009 Paris。酒店位于巴黎 9 区，靠近 Cadet（地铁 7 号线）、Notre-Dame-de-Lorette（12 号线）和 Gare du Nord。",
+      "location_name": "Hotel Palm - Astotel",
+      "address": "30 Rue de Maubeuge, 75009 Paris, France",
+      "phone": "+33 1 42 85 07 61",
+      "map_query": "Hotel Palm Astotel 30 Rue de Maubeuge Paris",
+      "external_url": "https://www.astotel.com/en/hotel/hotel-palm-en/",
       "status": "booked",
       "sort_order": 20,
       "is_public": 1,
-      "intro": null,
+      "intro": "后续巴黎所有路线均以 Hotel Palm - Astotel 为住宿起点 / 终点。",
       "price_label": null,
       "buy_url": null,
-      "badge_text": null,
-      "title_zh": "Elysees Niel Hotel · 寄存行李",
-      "title_en": "Elysees Niel Hotel · Luggage Storage",
+      "badge_text": "已订 · 巴黎 9 区",
+      "title_zh": "巴黎 Astotel 棕榈酒店 · 寄存 / 入住",
+      "title_en": "Hotel Palm - Astotel · Luggage Storage / Check-in",
       "image_url": null,
       "image_alt": null,
       "image_credit": null,
@@ -9740,7 +9740,43 @@
       "meal_anchor_id": null,
       "day_no": 11,
       "date": "2026-09-28",
-      "day_title": "Paris → Louvre",
+      "day_title": "巴黎 → 卢浮宫（Paris → Louvre）",
+      "tz_label": "France CEST UTC+2",
+      "has_protected_ticket": false
+    },
+    {
+      "id": 110025,
+      "day_id": 11,
+      "time_label": "约11:30–12:00",
+      "starts_at": null,
+      "item_type": "train",
+      "title": "Hotel Palm → 卢浮宫 · 地铁 7 号线直达（Hotel Palm → Louvre · Direct Metro 7）",
+      "description": "酒店步行约 5 分钟到 Cadet，乘地铁 7 号线直达 Palais Royal–Musée du Louvre。无需换乘；到站后步行到 Louvre / Palais Royal 一带吃午餐。",
+      "location_name": "Hotel Palm → Cadet → Palais Royal–Musée du Louvre",
+      "address": null,
+      "phone": null,
+      "map_query": "Hotel Palm Astotel to Palais Royal Musée du Louvre",
+      "external_url": null,
+      "status": "planned",
+      "sort_order": 23,
+      "is_public": 1,
+      "intro": "这是新酒店最大的路线优势之一：Cadet 的 7 号线可直接到 Louvre / Châtelet。",
+      "price_label": null,
+      "buy_url": null,
+      "badge_text": "M7 直达",
+      "title_zh": "Hotel Palm → 卢浮宫 · 地铁 7 号线直达",
+      "title_en": "Hotel Palm → Louvre · Direct Metro 7",
+      "image_url": null,
+      "image_alt": null,
+      "image_credit": null,
+      "image_source_url": null,
+      "google_rating": null,
+      "google_review_count": null,
+      "rating_checked_at": null,
+      "meal_anchor_id": null,
+      "day_no": 11,
+      "date": "2026-09-28",
+      "day_title": "巴黎 → 卢浮宫（Paris → Louvre）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9776,7 +9812,7 @@
       "meal_anchor_id": null,
       "day_no": 11,
       "date": "2026-09-28",
-      "day_title": "Paris → Louvre",
+      "day_title": "巴黎 → 卢浮宫（Paris → Louvre）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9812,7 +9848,7 @@
       "meal_anchor_id": null,
       "day_no": 11,
       "date": "2026-09-28",
-      "day_title": "Paris → Louvre",
+      "day_title": "巴黎 → 卢浮宫（Paris → Louvre）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9848,7 +9884,7 @@
       "meal_anchor_id": null,
       "day_no": 11,
       "date": "2026-09-28",
-      "day_title": "Paris → Louvre",
+      "day_title": "巴黎 → 卢浮宫（Paris → Louvre）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9884,7 +9920,7 @@
       "meal_anchor_id": null,
       "day_no": 11,
       "date": "2026-09-28",
-      "day_title": "Paris → Louvre",
+      "day_title": "巴黎 → 卢浮宫（Paris → Louvre）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9920,7 +9956,7 @@
       "meal_anchor_id": 11102,
       "day_no": 11,
       "date": "2026-09-28",
-      "day_title": "Paris → Louvre",
+      "day_title": "巴黎 → 卢浮宫（Paris → Louvre）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9956,7 +9992,7 @@
       "meal_anchor_id": 11101,
       "day_no": 11,
       "date": "2026-09-28",
-      "day_title": "Paris → Louvre",
+      "day_title": "巴黎 → 卢浮宫（Paris → Louvre）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -9992,7 +10028,7 @@
       "meal_anchor_id": 11102,
       "day_no": 11,
       "date": "2026-09-28",
-      "day_title": "Paris → Louvre",
+      "day_title": "巴黎 → 卢浮宫（Paris → Louvre）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -10028,7 +10064,7 @@
       "meal_anchor_id": 11101,
       "day_no": 11,
       "date": "2026-09-28",
-      "day_title": "Paris → Louvre",
+      "day_title": "巴黎 → 卢浮宫（Paris → Louvre）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -10064,7 +10100,7 @@
       "meal_anchor_id": 11101,
       "day_no": 11,
       "date": "2026-09-28",
-      "day_title": "Paris → Louvre",
+      "day_title": "巴黎 → 卢浮宫（Paris → Louvre）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -10100,7 +10136,7 @@
       "meal_anchor_id": 11102,
       "day_no": 11,
       "date": "2026-09-28",
-      "day_title": "Paris → Louvre",
+      "day_title": "巴黎 → 卢浮宫（Paris → Louvre）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -10136,7 +10172,7 @@
       "meal_anchor_id": 11102,
       "day_no": 11,
       "date": "2026-09-28",
-      "day_title": "Paris → Louvre",
+      "day_title": "巴黎 → 卢浮宫（Paris → Louvre）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -10172,32 +10208,32 @@
       "meal_anchor_id": null,
       "day_no": 11,
       "date": "2026-09-28",
-      "day_title": "Paris → Louvre",
+      "day_title": "巴黎 → 卢浮宫（Paris → Louvre）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
     {
       "id": 124001,
       "day_id": 12,
-      "time_label": "09:30–10:30",
+      "time_label": "09:15–10:35",
       "starts_at": null,
       "item_type": "train",
-      "title": "巴黎 → 凡尔赛宫",
-      "description": "从巴黎市区前往 Versailles Château Rive Gauche。这里不写死具体 RER C / SNCF 车次，出门前按 Île-de-France Mobilités / Google Maps 的实时信息选择。",
-      "location_name": "Versailles Château Rive Gauche",
+      "title": "Hotel Palm → 凡尔赛宫（Hotel Palm → Palace of Versailles）",
+      "description": "推荐路线：Hotel Palm 步行约 6 分钟 → Notre-Dame-de-Lorette；乘地铁 12 号线到 Solférino；步行到 Musée d’Orsay RER C；乘 RER C 到 Versailles Château Rive Gauche；出站后步行约 10 分钟到凡尔赛宫。出门前用 Île-de-France Mobilités / Google Maps 确认 RER C 实时运行。",
+      "location_name": "Hotel Palm → Notre-Dame-de-Lorette → Musée d’Orsay → Versailles Château Rive Gauche",
       "address": null,
       "phone": null,
-      "map_query": "Versailles Château Rive Gauche",
+      "map_query": "Hotel Palm Astotel to Versailles Château Rive Gauche",
       "external_url": null,
       "status": "planned",
       "sort_order": 10,
       "is_public": 1,
-      "intro": "目标 10:30 左右抵达 Versailles，给散步、咖啡和安检留足缓冲。",
+      "intro": "目标 10:30–10:40 左右到凡尔赛，给 12:00 固定入场留足缓冲。",
       "price_label": null,
       "buy_url": null,
-      "badge_text": "实时交通",
-      "title_zh": "巴黎 → 凡尔赛宫",
-      "title_en": "Paris → Versailles",
+      "badge_text": "M12 + RER C",
+      "title_zh": "Hotel Palm → 凡尔赛宫",
+      "title_en": "Hotel Palm → Palace of Versailles",
       "image_url": null,
       "image_alt": null,
       "image_credit": null,
@@ -10208,7 +10244,7 @@
       "meal_anchor_id": null,
       "day_no": 12,
       "date": "2026-09-29",
-      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船",
+      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船（Versailles Day Trip · Seine Cruise at Night）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -10244,7 +10280,7 @@
       "meal_anchor_id": null,
       "day_no": 12,
       "date": "2026-09-29",
-      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船",
+      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船（Versailles Day Trip · Seine Cruise at Night）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -10280,7 +10316,7 @@
       "meal_anchor_id": null,
       "day_no": 12,
       "date": "2026-09-29",
-      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船",
+      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船（Versailles Day Trip · Seine Cruise at Night）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -10316,7 +10352,7 @@
       "meal_anchor_id": null,
       "day_no": 12,
       "date": "2026-09-29",
-      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船",
+      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船（Versailles Day Trip · Seine Cruise at Night）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -10352,7 +10388,7 @@
       "meal_anchor_id": null,
       "day_no": 12,
       "date": "2026-09-29",
-      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船",
+      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船（Versailles Day Trip · Seine Cruise at Night）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -10388,7 +10424,7 @@
       "meal_anchor_id": null,
       "day_no": 12,
       "date": "2026-09-29",
-      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船",
+      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船（Versailles Day Trip · Seine Cruise at Night）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -10424,7 +10460,7 @@
       "meal_anchor_id": null,
       "day_no": 12,
       "date": "2026-09-29",
-      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船",
+      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船（Versailles Day Trip · Seine Cruise at Night）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -10460,7 +10496,7 @@
       "meal_anchor_id": null,
       "day_no": 12,
       "date": "2026-09-29",
-      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船",
+      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船（Versailles Day Trip · Seine Cruise at Night）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -10496,7 +10532,7 @@
       "meal_anchor_id": null,
       "day_no": 12,
       "date": "2026-09-29",
-      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船",
+      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船（Versailles Day Trip · Seine Cruise at Night）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -10532,7 +10568,7 @@
       "meal_anchor_id": null,
       "day_no": 12,
       "date": "2026-09-29",
-      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船",
+      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船（Versailles Day Trip · Seine Cruise at Night）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -10568,7 +10604,7 @@
       "meal_anchor_id": 12102,
       "day_no": 12,
       "date": "2026-09-29",
-      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船",
+      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船（Versailles Day Trip · Seine Cruise at Night）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -10604,7 +10640,7 @@
       "meal_anchor_id": 12101,
       "day_no": 12,
       "date": "2026-09-29",
-      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船",
+      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船（Versailles Day Trip · Seine Cruise at Night）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -10640,7 +10676,7 @@
       "meal_anchor_id": 12102,
       "day_no": 12,
       "date": "2026-09-29",
-      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船",
+      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船（Versailles Day Trip · Seine Cruise at Night）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -10676,7 +10712,7 @@
       "meal_anchor_id": 12101,
       "day_no": 12,
       "date": "2026-09-29",
-      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船",
+      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船（Versailles Day Trip · Seine Cruise at Night）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -10712,7 +10748,7 @@
       "meal_anchor_id": 12102,
       "day_no": 12,
       "date": "2026-09-29",
-      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船",
+      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船（Versailles Day Trip · Seine Cruise at Night）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -10748,7 +10784,7 @@
       "meal_anchor_id": 12101,
       "day_no": 12,
       "date": "2026-09-29",
-      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船",
+      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船（Versailles Day Trip · Seine Cruise at Night）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -10784,7 +10820,43 @@
       "meal_anchor_id": 12102,
       "day_no": 12,
       "date": "2026-09-29",
-      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船",
+      "day_title": "凡尔赛宫一日 · 晚上塞纳河游船（Versailles Day Trip · Seine Cruise at Night）",
+      "tz_label": "France CEST UTC+2",
+      "has_protected_ticket": false
+    },
+    {
+      "id": 134000,
+      "day_id": 13,
+      "time_label": "08:20–09:00",
+      "starts_at": null,
+      "item_type": "train",
+      "title": "Hotel Palm → 巴黎圣母院 / 西岱岛（Hotel Palm → Notre-Dame / Île de la Cité）",
+      "description": "酒店步行约 5 分钟到 Cadet，乘地铁 7 号线到 Châtelet，再步行约 10–12 分钟到 Notre-Dame / Île de la Cité。7 号线无需换乘，是从新酒店去市中心最稳的路线。",
+      "location_name": "Hotel Palm → Cadet → Châtelet → Notre-Dame",
+      "address": null,
+      "phone": null,
+      "map_query": "Hotel Palm Astotel to Notre Dame Paris",
+      "external_url": null,
+      "status": "planned",
+      "sort_order": 5,
+      "is_public": 1,
+      "intro": "08:20 左右离店即可，09:00 左右开始西岱岛行程。",
+      "price_label": null,
+      "buy_url": null,
+      "badge_text": "M7 直达市中心",
+      "title_zh": "Hotel Palm → 巴黎圣母院 / 西岱岛",
+      "title_en": "Hotel Palm → Notre-Dame / Île de la Cité",
+      "image_url": null,
+      "image_alt": null,
+      "image_credit": null,
+      "image_source_url": null,
+      "google_rating": null,
+      "google_review_count": null,
+      "rating_checked_at": null,
+      "meal_anchor_id": null,
+      "day_no": 13,
+      "date": "2026-09-30",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -10820,7 +10892,7 @@
       "meal_anchor_id": null,
       "day_no": 13,
       "date": "2026-09-30",
-      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -10856,7 +10928,7 @@
       "meal_anchor_id": null,
       "day_no": 13,
       "date": "2026-09-30",
-      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -10892,7 +10964,7 @@
       "meal_anchor_id": null,
       "day_no": 13,
       "date": "2026-09-30",
-      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -10928,7 +11000,7 @@
       "meal_anchor_id": null,
       "day_no": 13,
       "date": "2026-09-30",
-      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -10964,7 +11036,7 @@
       "meal_anchor_id": null,
       "day_no": 13,
       "date": "2026-09-30",
-      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -11000,32 +11072,32 @@
       "meal_anchor_id": null,
       "day_no": 13,
       "date": "2026-09-30",
-      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
     {
       "id": 134005,
       "day_id": 13,
-      "time_label": "14:50–15:30",
+      "time_label": "14:50–15:35",
       "starts_at": null,
       "item_type": "train",
-      "title": "前往蒙马特",
-      "description": "从左岸乘地铁前往 Montmartre。这里预留约 40 分钟，具体线路以当天实时交通为准。",
-      "location_name": "Latin Quarter → Montmartre",
+      "title": "左岸 → 蒙马特（Latin Quarter → Montmartre）",
+      "description": "从 Saint-Michel / 左岸步行到 Saint-Michel 地铁站，乘地铁 4 号线到 Barbès–Rochechouart，再换 2 号线一站到 Anvers；从 Anvers 步行上山前往 Sacré-Cœur。",
+      "location_name": "Saint-Michel → Barbès–Rochechouart → Anvers → Sacré-Cœur",
       "address": null,
       "phone": null,
-      "map_query": "Latin Quarter to Sacré-Cœur Paris",
+      "map_query": "Saint Michel Paris to Sacré-Cœur",
       "external_url": null,
       "status": "planned",
       "sort_order": 40,
       "is_public": 1,
-      "intro": "不要为了少走几步压缩交通时间。",
+      "intro": "这条路线避免绕回酒店；到 Anvers 后直接进入蒙马特。",
       "price_label": null,
       "buy_url": null,
-      "badge_text": "地铁转移",
-      "title_zh": "前往蒙马特",
-      "title_en": "Transfer to Montmartre",
+      "badge_text": "M4 + M2",
+      "title_zh": "左岸 → 蒙马特",
+      "title_en": "Latin Quarter → Montmartre",
       "image_url": null,
       "image_alt": null,
       "image_credit": null,
@@ -11036,7 +11108,7 @@
       "meal_anchor_id": null,
       "day_no": 13,
       "date": "2026-09-30",
-      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -11072,7 +11144,7 @@
       "meal_anchor_id": null,
       "day_no": 13,
       "date": "2026-09-30",
-      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -11082,20 +11154,20 @@
       "time_label": "17:30–18:25",
       "starts_at": null,
       "item_type": "train",
-      "title": "蒙马特 → 埃菲尔铁塔",
-      "description": "从 Montmartre 前往 Eiffel Tower / Trocadéro 一带。预留约 55 分钟，包括步行和地铁换乘。",
-      "location_name": "Montmartre → Eiffel Tower",
+      "title": "蒙马特 → 埃菲尔铁塔（Montmartre → Eiffel Tower）",
+      "description": "从 Anvers 乘地铁 2 号线到 Charles de Gaulle–Étoile，再换 6 号线到 Trocadéro。出站就是铁塔经典观景方向；晚餐和 21:30 登塔都留在 Eiffel / Trocadéro 区域。",
+      "location_name": "Anvers → Charles de Gaulle–Étoile → Trocadéro",
       "address": null,
       "phone": null,
-      "map_query": "Sacré-Cœur to Eiffel Tower Paris",
+      "map_query": "Anvers Paris to Trocadéro Paris",
       "external_url": null,
       "status": "planned",
       "sort_order": 50,
       "is_public": 1,
-      "intro": "21:30 登塔是今晚第二个硬时间，18:30 起不再跨区。",
+      "intro": "M2 + M6 一次换乘，直接把蒙马特和铁塔串起来。",
       "price_label": null,
       "buy_url": null,
-      "badge_text": "返回铁塔区域",
+      "badge_text": "M2 + M6",
       "title_zh": "蒙马特 → 埃菲尔铁塔",
       "title_en": "Montmartre → Eiffel Tower",
       "image_url": null,
@@ -11108,7 +11180,7 @@
       "meal_anchor_id": null,
       "day_no": 13,
       "date": "2026-09-30",
-      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -11144,7 +11216,7 @@
       "meal_anchor_id": null,
       "day_no": 13,
       "date": "2026-09-30",
-      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -11180,7 +11252,7 @@
       "meal_anchor_id": null,
       "day_no": 13,
       "date": "2026-09-30",
-      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -11216,7 +11288,7 @@
       "meal_anchor_id": null,
       "day_no": 13,
       "date": "2026-09-30",
-      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -11252,7 +11324,43 @@
       "meal_anchor_id": null,
       "day_no": 13,
       "date": "2026-09-30",
-      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
+      "tz_label": "France CEST UTC+2",
+      "has_protected_ticket": false
+    },
+    {
+      "id": 130045,
+      "day_id": 13,
+      "time_label": "登塔结束后",
+      "starts_at": null,
+      "item_type": "train",
+      "title": "埃菲尔铁塔 → Hotel Palm（Eiffel Tower → Hotel Palm）",
+      "description": "若从 Trocadéro 一侧离开，可乘地铁 9 号线到 Chaussée d’Antin–La Fayette，再步行约 12–15 分钟回 Hotel Palm。若已经很累或时间很晚，直接 taxi / VTC 回酒店更省事。",
+      "location_name": "Trocadéro → Chaussée d’Antin–La Fayette → Hotel Palm",
+      "address": null,
+      "phone": null,
+      "map_query": "Eiffel Tower to Hotel Palm Astotel Paris",
+      "external_url": null,
+      "status": "planned",
+      "sort_order": 80,
+      "is_public": 1,
+      "intro": "最后一晚不再增加景点，直接回酒店。",
+      "price_label": null,
+      "buy_url": null,
+      "badge_text": "M9 / Taxi 备选",
+      "title_zh": "埃菲尔铁塔 → Hotel Palm",
+      "title_en": "Eiffel Tower → Hotel Palm",
+      "image_url": null,
+      "image_alt": null,
+      "image_credit": null,
+      "image_source_url": null,
+      "google_rating": null,
+      "google_review_count": null,
+      "rating_checked_at": null,
+      "meal_anchor_id": null,
+      "day_no": 13,
+      "date": "2026-09-30",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -11288,7 +11396,7 @@
       "meal_anchor_id": 13101,
       "day_no": 13,
       "date": "2026-09-30",
-      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -11324,7 +11432,7 @@
       "meal_anchor_id": null,
       "day_no": 13,
       "date": "2026-09-30",
-      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -11360,7 +11468,7 @@
       "meal_anchor_id": 13102,
       "day_no": 13,
       "date": "2026-09-30",
-      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -11396,7 +11504,7 @@
       "meal_anchor_id": 13101,
       "day_no": 13,
       "date": "2026-09-30",
-      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -11432,7 +11540,7 @@
       "meal_anchor_id": null,
       "day_no": 13,
       "date": "2026-09-30",
-      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -11468,7 +11576,7 @@
       "meal_anchor_id": 13102,
       "day_no": 13,
       "date": "2026-09-30",
-      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -11504,7 +11612,7 @@
       "meal_anchor_id": 13101,
       "day_no": 13,
       "date": "2026-09-30",
-      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -11540,7 +11648,7 @@
       "meal_anchor_id": 13101,
       "day_no": 13,
       "date": "2026-09-30",
-      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -11576,7 +11684,7 @@
       "meal_anchor_id": 13101,
       "day_no": 13,
       "date": "2026-09-30",
-      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -11612,7 +11720,7 @@
       "meal_anchor_id": 13101,
       "day_no": 13,
       "date": "2026-09-30",
-      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -11648,7 +11756,7 @@
       "meal_anchor_id": 13101,
       "day_no": 13,
       "date": "2026-09-30",
-      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -11684,7 +11792,7 @@
       "meal_anchor_id": null,
       "day_no": 13,
       "date": "2026-09-30",
-      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔",
+      "day_title": "西岱岛 · 圣礼拜堂 · 蒙马特 · 埃菲尔铁塔（Île de la Cité · Sainte-Chapelle · Montmartre · Eiffel Tower）",
       "tz_label": "France CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -11694,22 +11802,22 @@
       "time_label": "09:30",
       "starts_at": null,
       "item_type": "train",
-      "title": "离开酒店前往 CDG T1",
-      "description": "13:30 长途国际航班，不再安排上午景点。",
-      "location_name": "Paris Charles de Gaulle Airport Terminal 1",
+      "title": "Hotel Palm → CDG T1（Hotel Palm → CDG Terminal 1）",
+      "description": "推荐公共交通：从 Hotel Palm 步行约 12 分钟到 Gare du Nord，乘 RER B 前往 Aéroport Charles de Gaulle 1；到站后换免费 CDGVAL 到 Terminal 1。13:30 国际航班，09:30 左右离店比较稳。",
+      "location_name": "Hotel Palm → Gare du Nord → Aéroport Charles de Gaulle 1 → CDG T1",
       "address": null,
       "phone": null,
-      "map_query": "Paris Charles de Gaulle Airport Terminal 1",
+      "map_query": "Hotel Palm Astotel to Charles de Gaulle Airport Terminal 1",
       "external_url": null,
       "status": "planned",
       "sort_order": 10,
       "is_public": 1,
-      "intro": null,
+      "intro": "酒店官网也把 Gare du Nord / RER B 作为前往 CDG 的主要公共交通方案。若行李很多，可改 taxi。",
       "price_label": null,
       "buy_url": null,
-      "badge_text": null,
-      "title_zh": "离开酒店前往戴高乐机场 T1",
-      "title_en": "Leave Hotel for CDG T1",
+      "badge_text": "步行 + RER B + CDGVAL",
+      "title_zh": "Hotel Palm → 戴高乐机场 T1",
+      "title_en": "Hotel Palm → CDG Terminal 1",
       "image_url": null,
       "image_alt": null,
       "image_credit": null,
@@ -11720,7 +11828,7 @@
       "meal_anchor_id": null,
       "day_no": 14,
       "date": "2026-10-01",
-      "day_title": "Paris → Xi’an",
+      "day_title": "巴黎 → 西安（Paris → Xi’an）",
       "tz_label": "Paris CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -11756,7 +11864,7 @@
       "meal_anchor_id": null,
       "day_no": 14,
       "date": "2026-10-01",
-      "day_title": "Paris → Xi’an",
+      "day_title": "巴黎 → 西安（Paris → Xi’an）",
       "tz_label": "Paris CEST UTC+2",
       "has_protected_ticket": false
     },
@@ -11792,7 +11900,7 @@
       "meal_anchor_id": null,
       "day_no": 15,
       "date": "2026-10-02",
-      "day_title": "Xi’an → Beijing",
+      "day_title": "西安 → 北京（Xi’an → Beijing）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -11828,7 +11936,7 @@
       "meal_anchor_id": null,
       "day_no": 15,
       "date": "2026-10-02",
-      "day_title": "Xi’an → Beijing",
+      "day_title": "西安 → 北京（Xi’an → Beijing）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     },
@@ -11864,7 +11972,7 @@
       "meal_anchor_id": null,
       "day_no": 15,
       "date": "2026-10-02",
-      "day_title": "Xi’an → Beijing",
+      "day_title": "西安 → 北京（Xi’an → Beijing）",
       "tz_label": "中国标准时间 UTC+8",
       "has_protected_ticket": false
     }
