@@ -1,0 +1,19 @@
+{
+  "name": "布达佩斯旅行手册 · 离线加密版",
+  "short_name": "布达佩斯",
+  "description": "两人冬日旅行日程与交通",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#efe7da",
+  "theme_color": "#31664e",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
