@@ -1,5 +1,5 @@
 /* Scoped to /budapest/ only; caches encrypted trip, never plaintext. */
-const CACHE='budapest-locked-v4-20261119-split';
+const CACHE='budapest-locked-v5-20261120-friday';
 const CORE=['./','./index.html','./data.locked.json','./manifest.webmanifest','./icon.svg'];
 self.addEventListener('install',event=>event.waitUntil((async()=>{const c=await caches.open(CACHE);await c.addAll(CORE);await self.skipWaiting()})()));
 self.addEventListener('activate',event=>event.waitUntil((async()=>{for(const k of await caches.keys())if(k.startsWith('budapest-locked-')&&k!==CACHE)await caches.delete(k);await self.clients.claim()})()));
